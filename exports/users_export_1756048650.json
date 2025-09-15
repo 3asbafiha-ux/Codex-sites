@@ -1,0 +1,39 @@
+{
+  "admin": {
+    "password": "BNGX_ADMIN_2024_ULTRA_SECURE",
+    "token": "CODEX_vFXN9sTcCdOu8WkWl15ugA_1755876917",
+    "role": "super_admin",
+    "permissions": [
+      "all"
+    ],
+    "created_at": 1755873425,
+    "last_login": 1755881858,
+    "status": "active"
+  },
+  "bngx_admin": {
+    "password": "CODEXBNGX",
+    "token": "ULTRA_SECRET_TOKEN_BNGX",
+    "role": "admin",
+    "permissions": [
+      "all"
+    ],
+    "created_at": 1755873425,
+    "last_login": null,
+    "status": "active",
+    "last_modified": 1755886572,
+    "modified_by": "BLRXH4RDIXX"
+  },
+  "BLRXH4RDIXX": {
+    "password": "BLRXH4X",
+    "token": "BLRXH4X",
+    "role": "admin",
+    "permissions": [
+      "all"
+    ],
+    "created_at": 1755873425,
+    "last_login": 1756048626,
+    "status": "active",
+    "last_modified": 1756048127,
+    "modified_by": "BLRXH4RDIXX"
+  }
+}
