@@ -1,0 +1,921 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1X COMMUNITY CHAT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .chat-page-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .chat-page-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(0, 255, 65, 0.3);
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .chat-page-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.1), transparent);
+            animation: scanLine 3s infinite;
+        }
+
+        .chat-page-title {
+            color: #00ff41;
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(0, 255, 65, 0.7);
+            margin-bottom: 15px;
+            animation: titleGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes titleGlow {
+            from { text-shadow: 0 0 20px rgba(0, 255, 65, 0.7); }
+            to { text-shadow: 0 0 40px rgba(0, 255, 65, 0.9), 0 0 60px rgba(0, 255, 65, 0.5); }
+        }
+
+        .chat-page-subtitle {
+            color: #9932cc;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chat-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            background: rgba(0, 255, 65, 0.1);
+            border: 2px solid rgba(0, 255, 65, 0.3);
+            border-radius: 15px;
+            padding: 15px 25px;
+            text-align: center;
+        }
+
+        .stat-number {
+            color: #00ff41;
+            font-size: 24px;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            color: #9932cc;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .full-chat-interface {
+            background: rgba(0, 0, 0, 0.95);
+            border: 2px solid rgba(0, 255, 65, 0.4);
+            border-radius: 20px;
+            height: 80vh;
+            display: flex;
+            overflow: hidden;
+            animation: chatSlideIn 0.8s ease-out;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: linear-gradient(45deg, #00ff41, #9932cc);
+            color: #000;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 255, 65, 0.4);
+        }
+
+        /* Chat Interface Styles */
+        .chat-window {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .chat-header-bar {
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 2px solid rgba(0, 255, 65, 0.3);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-title {
+            color: #00ff41;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .online-count {
+            color: #9932cc;
+            font-size: 12px;
+            margin-left: 15px;
+        }
+
+        .chat-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-control-btn {
+            background: rgba(0, 255, 65, 0.1);
+            border: 1px solid rgba(0, 255, 65, 0.3);
+            color: #00ff41;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .chat-control-btn:hover {
+            background: rgba(0, 255, 65, 0.2);
+            transform: scale(1.05);
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            min-height: 400px;
+        }
+
+        .chat-message {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(0, 255, 65, 0.1);
+        }
+
+        .chat-message.own-message {
+            background: rgba(0, 255, 65, 0.1);
+            border-color: rgba(0, 255, 65, 0.3);
+            margin-left: 50px;
+        }
+
+        .chat-message.admin-message {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .chat-message.system-message {
+            background: rgba(153, 50, 204, 0.1);
+            border-color: rgba(153, 50, 204, 0.3);
+            justify-content: center;
+            font-style: italic;
+        }
+
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 255, 65, 0.2);
+            border: 2px solid rgba(0, 255, 65, 0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #00ff41;
+            flex-shrink: 0;
+        }
+
+        .message-content {
+            flex: 1;
+        }
+
+        .message-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+
+        .message-username {
+            color: #00ff41;
+            font-weight: bold;
+        }
+
+        .message-role {
+            background: rgba(153, 50, 204, 0.3);
+            color: #9932cc;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .message-role.admin {
+            background: rgba(255, 215, 0, 0.3);
+            color: #ffd700;
+        }
+
+        .message-time {
+            color: #888;
+            font-size: 12px;
+        }
+
+        .message-text {
+            color: #ffffff;
+            line-height: 1.4;
+        }
+
+        .chat-input-area {
+            background: rgba(0, 0, 0, 0.8);
+            border-top: 2px solid rgba(0, 255, 65, 0.3);
+            padding: 15px;
+        }
+
+        .chat-extras {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            justify-content: center;
+        }
+
+        .extra-btn {
+            background: rgba(0, 255, 65, 0.1);
+            border: 1px solid rgba(0, 255, 65, 0.3);
+            color: #00ff41;
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .extra-btn:hover, .extra-btn.active {
+            background: rgba(0, 255, 65, 0.2);
+            transform: scale(1.05);
+        }
+
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        #chat-input {
+            flex: 1;
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(0, 255, 65, 0.3);
+            border-radius: 25px;
+            padding: 12px 20px;
+            color: #ffffff;
+            font-size: 14px;
+            outline: none;
+        }
+
+        #chat-input:focus {
+            border-color: rgba(0, 255, 65, 0.6);
+            box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+        }
+
+        .send-button {
+            background: linear-gradient(45deg, #00ff41, #9932cc);
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+        }
+
+        .send-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0, 255, 65, 0.4);
+        }
+
+        .extras-panel {
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid rgba(0, 255, 65, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .emoji-grid, .gif-grid, .sticker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            gap: 10px;
+        }
+
+        .emoji-item, .gif-item, .sticker-item {
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s;
+            background: rgba(0, 255, 65, 0.1);
+            border: 1px solid rgba(0, 255, 65, 0.2);
+        }
+
+        .emoji-item:hover, .gif-item:hover, .sticker-item:hover {
+            background: rgba(0, 255, 65, 0.2);
+            transform: scale(1.1);
+        }
+
+        .gif-item {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+
+        .users-sidebar {
+            width: 250px;
+            background: rgba(0, 0, 0, 0.8);
+            border-left: 2px solid rgba(0, 255, 65, 0.3);
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .sidebar-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 255, 65, 0.3);
+        }
+
+        .sidebar-header h4 {
+            color: #00ff41;
+            margin: 0 0 10px 0;
+        }
+
+        .user-count {
+            color: #9932cc;
+            font-size: 12px;
+        }
+
+        .user-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .user-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: rgba(0, 255, 65, 0.1);
+            border: 1px solid rgba(0, 255, 65, 0.2);
+            border-radius: 10px;
+        }
+
+        .user-item.admin {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .user-avatar {
+            width: 30px;
+            height: 30px;
+            background: rgba(0, 255, 65, 0.3);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #00ff41;
+        }
+
+        .user-info {
+            flex: 1;
+        }
+
+        .user-name {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .user-status {
+            color: #9932cc;
+            font-size: 11px;
+        }
+
+        .user-role-badge {
+            background: rgba(153, 50, 204, 0.3);
+            color: #9932cc;
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 9px;
+            font-weight: bold;
+        }
+
+        .user-role-badge.admin {
+            background: rgba(255, 215, 0, 0.3);
+            color: #ffd700;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .chat-page-title {
+                font-size: 32px;
+            }
+            
+            .chat-stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .full-chat-interface {
+                height: 70vh;
+                flex-direction: column;
+            }
+
+            .users-sidebar {
+                width: 100%;
+                height: 150px;
+                border-left: none;
+                border-top: 2px solid rgba(0, 255, 65, 0.3);
+            }
+
+            .chat-extras {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Modern Background Effects -->
+    <div class="floating-particles" id="floating-particles"></div>
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="goBackToDashboard()">
+        <i class="fas fa-arrow-left"></i> العودة للوحة التحكم
+    </button>
+
+    <div class="chat-page-container">
+        <!-- Chat Page Header -->
+        <div class="chat-page-header">
+            <h1 class="chat-page-title">
+                <i class="fas fa-comments"></i>
+                S1X COMMUNITY CHAT
+            </h1>
+            <p class="chat-page-subtitle">
+                مرحباً بك في شات مجتمع S1X TEAM - تواصل مع المطورين والمستخدمين حول العالم
+            </p>
+            
+            <div class="chat-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="online-users-count">1</span>
+                    <div class="stat-label">المستخدمين النشطين</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="total-messages-count">0</span>
+                    <div class="stat-label">إجمالي الرسائل</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="chat-uptime">00:00</span>
+                    <div class="stat-label">وقت تشغيل الشات</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Chat Interface -->
+        <div class="full-chat-interface" id="chat-interface">
+            <div class="chat-window">
+                <div class="chat-header-bar">
+                    <div class="chat-title">
+                        <i class="fas fa-comments"></i>
+                        S1X COMMUNITY CHAT
+                        <span class="online-count">Online: <span id="online-users">1</span></span>
+                    </div>
+                    <div class="chat-controls">
+                        <button id="chat-help-btn" class="chat-control-btn" title="المساعدة والاختصارات">
+                            <i class="fas fa-question-circle"></i>
+                        </button>
+                        <button id="chat-settings-btn" class="chat-control-btn" title="الإعدادات">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                        <button id="minimize-chat-btn" class="chat-control-btn" title="تصغير">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button id="fullscreen-chat-btn" class="chat-control-btn" title="ملء الشاشة">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Welcome Messages -->
+                    <div class="chat-message system-message">
+                        <div class="message-avatar">🤖</div>
+                        <div class="message-content">
+                            <div class="message-header">
+                                <span class="message-username">نظام S1X</span>
+                                <span class="message-role">نظام</span>
+                                <span class="message-time">الآن</span>
+                            </div>
+                            <div class="message-text">
+                                مرحباً بك في شات مجتمع S1X TEAM! 🎉<br>
+                                اكتب /help للحصول على قائمة الأوامر المتاحة
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chat-message admin-message">
+                        <div class="message-avatar">👑</div>
+                        <div class="message-content">
+                            <div class="message-header">
+                                <span class="message-username">BLRXH4RDIXX</span>
+                                <span class="message-role admin">المؤسس</span>
+                                <span class="message-time">الآن</span>
+                            </div>
+                            <div class="message-text">
+                                أهلاً وسهلاً بكم في شات S1X TEAM الرسمي! نحن هنا لمساعدتكم ومشاركة أحدث الأدوات والتحديثات 🚀
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="chat-extras">
+                        <button class="extra-btn" id="emoji-btn" title="الرموز التعبيرية">😀</button>
+                        <button class="extra-btn" id="gif-btn" title="الصور المتحركة">GIF</button>
+                        <button class="extra-btn" id="sticker-btn" title="الملصقات">🎭</button>
+                        <button class="extra-btn" id="file-btn" title="رفع ملف">📎</button>
+                        <input type="file" id="file-input" style="display: none;" multiple accept="image/*,video/*,audio/*,.pdf,.txt,.doc,.docx">
+                        <button class="extra-btn" id="commands-btn" title="الأوامر">/</button>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" id="chat-input" placeholder="اكتب رسالتك هنا... أو استخدم / للأوامر" maxlength="500">
+                        <button id="send-btn" class="send-button">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Emoji Picker -->
+                <div id="emoji-picker" class="extras-panel" style="display: none;">
+                    <div class="emoji-grid">
+                        <span class="emoji-item">😀</span><span class="emoji-item">😃</span><span class="emoji-item">😄</span><span class="emoji-item">😁</span>
+                        <span class="emoji-item">😆</span><span class="emoji-item">😅</span><span class="emoji-item">😂</span><span class="emoji-item">🤣</span>
+                        <span class="emoji-item">😊</span><span class="emoji-item">😇</span><span class="emoji-item">🙂</span><span class="emoji-item">🙃</span>
+                        <span class="emoji-item">😉</span><span class="emoji-item">😌</span><span class="emoji-item">😍</span><span class="emoji-item">🥰</span>
+                        <span class="emoji-item">😘</span><span class="emoji-item">😗</span><span class="emoji-item">🔥</span><span class="emoji-item">⚡</span>
+                        <span class="emoji-item">🎉</span><span class="emoji-item">🎊</span><span class="emoji-item">💥</span><span class="emoji-item">✨</span>
+                        <span class="emoji-item">🚀</span><span class="emoji-item">🛡️</span><span class="emoji-item">⚔️</span><span class="emoji-item">💎</span>
+                        <span class="emoji-item">👑</span><span class="emoji-item">💻</span><span class="emoji-item">🎮</span><span class="emoji-item">🔮</span>
+                    </div>
+                </div>
+
+                <!-- GIF Picker -->
+                <div id="gif-picker" class="extras-panel" style="display: none;">
+                    <div class="gif-search">
+                        <input type="text" placeholder="ابحث عن الصور المتحركة..." id="gif-search-input">
+                    </div>
+                    <div class="gif-grid" id="gif-grid">
+                        <img class="gif-item" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" alt="Hacking GIF">
+                        <img class="gif-item" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" alt="Matrix GIF">
+                        <img class="gif-item" src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" alt="Code GIF">
+                        <img class="gif-item" src="https://media.giphy.com/media/dxn6fRlTIShoeBr69N/giphy.gif" alt="Terminal GIF">
+                        <img class="gif-item" src="https://media.giphy.com/media/3oKIPv9QHyOOK46jkI/giphy.gif" alt="Tech GIF">
+                        <img class="gif-item" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Gaming GIF">
+                    </div>
+                </div>
+
+                <!-- Sticker Picker -->
+                <div id="sticker-picker" class="extras-panel" style="display: none;">
+                    <div class="sticker-categories">
+                        <button class="sticker-cat active" data-cat="tech">تقنية</button>
+                        <button class="sticker-cat" data-cat="gaming">ألعاب</button>
+                        <button class="sticker-cat" data-cat="reactions">تفاعلات</button>
+                    </div>
+                    <div class="sticker-grid" id="sticker-grid">
+                        <div class="sticker-item" data-sticker="💻🔥">💻🔥</div>
+                        <div class="sticker-item" data-sticker="🚀⚡">🚀⚡</div>
+                        <div class="sticker-item" data-sticker="🛡️👑">🛡️👑</div>
+                        <div class="sticker-item" data-sticker="💎⚔️">💎⚔️</div>
+                        <div class="sticker-item" data-sticker="🎮🔮">🎮🔮</div>
+                        <div class="sticker-item" data-sticker="🌟💥">🌟💥</div>
+                    </div>
+                </div>
+
+                <!-- Commands Panel -->
+                <div id="commands-picker" class="extras-panel" style="display: none;">
+                    <div class="commands-header">
+                        <h4>أوامر الشات المتاحة</h4>
+                    </div>
+                    <div class="commands-list">
+                        <div class="command-item" data-command="/help">
+                            <span class="command-name">/help</span>
+                            <span class="command-desc">عرض قائمة الأوامر</span>
+                        </div>
+                        <div class="command-item" data-command="/users">
+                            <span class="command-name">/users</span>
+                            <span class="command-desc">عرض المستخدمين النشطين</span>
+                        </div>
+                        <div class="command-item" data-command="/time">
+                            <span class="command-name">/time</span>
+                            <span class="command-desc">عرض الوقت الحالي</span>
+                        </div>
+                        <div class="command-item" data-command="/ping">
+                            <span class="command-name">/ping</span>
+                            <span class="command-desc">فحص الاتصال</span>
+                        </div>
+                        <div class="command-item admin-only" data-command="/ban">
+                            <span class="command-name">/ban [username]</span>
+                            <span class="command-desc">حظر مستخدم (للمشرفين فقط)</span>
+                        </div>
+                        <div class="command-item admin-only" data-command="/kick">
+                            <span class="command-name">/kick [username]</span>
+                            <span class="command-desc">طرد مستخدم (للمشرفين فقط)</span>
+                        </div>
+                        <div class="command-item admin-only" data-command="/clear">
+                            <span class="command-name">/clear</span>
+                            <span class="command-desc">مسح الشات (للمشرفين فقط)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User List Sidebar -->
+            <div class="users-sidebar" id="users-sidebar">
+                <div class="sidebar-header">
+                    <h4>المستخدمين النشطين</h4>
+                    <span class="user-count" id="user-count">1 متصل</span>
+                </div>
+                <div class="user-list" id="user-list">
+                    <div class="user-item admin">
+                        <div class="user-avatar">👑</div>
+                        <div class="user-info">
+                            <div class="user-name">BLRXH4RDIXX</div>
+                            <div class="user-status">المؤسس - نشط</div>
+                        </div>
+                        <div class="user-role-badge admin">ADMIN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        // Initialize chat on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Chat page loaded, initializing...');
+            
+            // Initialize matrix rain effect
+            try {
+                new MatrixRain();
+            } catch(e) {
+                console.log('Matrix effect initialization failed:', e);
+            }
+            
+            // Initialize visual effects
+            try {
+                new VisualEffects();
+            } catch(e) {
+                console.log('Visual effects initialization failed:', e);
+            }
+            
+            // Initialize chat system
+            try {
+                console.log('Creating S1X Chat System...');
+                window.s1xChat = new S1XChatSystem();
+                
+                // Initialize the chat system
+                s1xChat.init().then(userData => {
+                    console.log('Chat system initialized with user:', userData);
+                    s1xChat.currentUser = userData;
+                    
+                    // Initialize chat interface
+                    console.log('Initializing chat interface...');
+                    s1xChat.initializeChatInterface();
+                    
+                    // Connect to chat
+                    s1xChat.connectToChat();
+                    
+                    console.log('Chat system fully initialized');
+                }).catch(error => {
+                    console.error('Failed to initialize chat system:', error);
+                });
+                
+            } catch(e) {
+                console.error('Chat system creation failed:', e);
+            }
+            
+            // Start real-time features
+            startChatUpdates();
+            startStatsUpdater();
+        });
+        
+        function goBackToDashboard() {
+            window.location.href = '/dashboard';
+        }
+        
+        function startChatUpdates() {
+            // Simulate real-time updates
+            setInterval(() => {
+                updateOnlineCount();
+                updateChatStats();
+            }, 5000);
+        }
+        
+        function updateOnlineCount() {
+            const count = Math.floor(Math.random() * 10) + 1;
+            document.getElementById('online-users').textContent = count;
+            document.getElementById('online-users-count').textContent = count;
+            document.getElementById('user-count').textContent = count + ' متصل';
+        }
+        
+        function updateChatStats() {
+            const messages = Math.floor(Math.random() * 1000) + 500;
+            document.getElementById('total-messages-count').textContent = messages;
+        }
+        
+        function startStatsUpdater() {
+            let seconds = 0;
+            setInterval(() => {
+                seconds++;
+                const hours = Math.floor(seconds / 3600);
+                const minutes = Math.floor((seconds % 3600) / 60);
+                const remainingSeconds = seconds % 60;
+                
+                const timeString = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+                document.getElementById('chat-uptime').textContent = timeString;
+            }, 1000);
+        }
+        
+        // Enhanced chat functionality with proper panel management
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('command-item')) {
+                const command = e.target.dataset.command;
+                const chatInput = document.getElementById('chat-input');
+                chatInput.value = command + ' ';
+                chatInput.focus();
+                hideAllPanels();
+            } else if (e.target.classList.contains('extra-btn')) {
+                e.preventDefault();
+                e.stopPropagation();
+                const btnId = e.target.id;
+                handleExtraButtonClick(btnId);
+            } else if (e.target.classList.contains('emoji-item')) {
+                insertEmojiToChat(e.target.textContent);
+                hideAllPanels();
+            } else if (e.target.classList.contains('gif-item')) {
+                insertGifToChat(e.target.src);
+                hideAllPanels();
+            } else if (e.target.classList.contains('sticker-item')) {
+                insertStickerToChat(e.target.dataset.sticker);
+                hideAllPanels();
+            } else if (e.target.id === 'fullscreen-chat-btn') {
+                toggleFullscreen();
+            } else if (!e.target.closest('.extras-panel') && !e.target.classList.contains('extra-btn')) {
+                // Click outside panels - close them
+                hideAllPanels();
+            }
+        });
+
+        function handleExtraButtonClick(btnId) {
+            const targetPanel = btnId.replace('-btn', '-picker');
+            
+            // Close all other panels first
+            hideAllPanels();
+            
+            // Toggle the clicked panel
+            const panel = document.getElementById(targetPanel);
+            if (panel) {
+                const isVisible = panel.style.display === 'block';
+                panel.style.display = isVisible ? 'none' : 'block';
+                
+                // Update button state
+                document.querySelectorAll('.extra-btn').forEach(btn => btn.classList.remove('active'));
+                if (!isVisible) {
+                    document.getElementById(btnId).classList.add('active');
+                }
+            }
+        }
+
+        function hideAllPanels() {
+            const panels = document.querySelectorAll('.extras-panel');
+            panels.forEach(panel => {
+                panel.style.display = 'none';
+            });
+            
+            // Remove active state from all buttons
+            document.querySelectorAll('.extra-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+        }
+
+        function insertEmojiToChat(emoji) {
+            const chatInput = document.getElementById('chat-input');
+            chatInput.value += emoji;
+            chatInput.focus();
+        }
+
+        function insertGifToChat(gifUrl) {
+            const chatInput = document.getElementById('chat-input');
+            chatInput.value += ` [GIF: ${gifUrl}] `;
+            chatInput.focus();
+        }
+
+        function insertStickerToChat(sticker) {
+            const chatInput = document.getElementById('chat-input');
+            chatInput.value += sticker;
+            chatInput.focus();
+        }
+
+        // ESC key to close panels
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                hideAllPanels();
+            }
+        });
+        
+        function togglePanel(panelId) {
+            const panel = document.getElementById(panelId);
+            if (!panel) return;
+            
+            const isVisible = panel.style.display === 'block';
+            
+            // Hide all panels first
+            hideAllPanels();
+            
+            // Show the requested panel if it wasn't visible
+            if (!isVisible) {
+                panel.style.display = 'block';
+                // Find and activate corresponding button
+                const btnId = panelId.replace('-picker', '-btn');
+                const btn = document.getElementById(btnId);
+                if (btn) {
+                    btn.classList.add('active');
+                }
+            }
+        }
+        
+        function toggleFullscreen() {
+            const chatInterface = document.getElementById('chat-interface');
+            if (chatInterface.classList.contains('fullscreen')) {
+                chatInterface.classList.remove('fullscreen');
+                chatInterface.style.position = 'static';
+                chatInterface.style.top = 'auto';
+                chatInterface.style.left = 'auto';
+                chatInterface.style.width = 'auto';
+                chatInterface.style.height = '80vh';
+                chatInterface.style.zIndex = 'auto';
+            } else {
+                chatInterface.classList.add('fullscreen');
+                chatInterface.style.position = 'fixed';
+                chatInterface.style.top = '0';
+                chatInterface.style.left = '0';
+                chatInterface.style.width = '100vw';
+                chatInterface.style.height = '100vh';
+                chatInterface.style.zIndex = '9999';
+            }
+        }
+    </script>
+</body>
+</html>

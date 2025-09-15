@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Welcome to CODEX TEAM - مرحباً بك</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #00ff41;
+            font-family: 'Fira Code', monospace;
+            overflow: hidden;
+            height: 100vh;
+            position: relative;
+        }
+
+        #threejs-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .welcome-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(2px);
+        }
+
+        .welcome-container {
+            background: rgba(0, 0, 0, 0.95);
+            border: 3px solid #00ff41;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 
+                0 0 50px rgba(0, 255, 65, 0.5),
+                inset 0 0 50px rgba(0, 255, 65, 0.1);
+            position: relative;
+            max-width: 500px;
+            width: 90%;
+            animation: containerGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes containerGlow {
+            from { 
+                box-shadow: 
+                    0 0 50px rgba(0, 255, 65, 0.5),
+                    inset 0 0 50px rgba(0, 255, 65, 0.1);
+            }
+            to { 
+                box-shadow: 
+                    0 0 80px rgba(0, 255, 65, 0.8),
+                    inset 0 0 80px rgba(0, 255, 65, 0.2);
+            }
+        }
+
+        .logo-animation {
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: logoSpin 4s linear infinite;
+        }
+
+        @keyframes logoSpin {
+            from { transform: rotateY(0deg); }
+            to { transform: rotateY(360deg); }
+        }
+
+        .welcome-title {
+            font-size: 32px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px #00ff41;
+            animation: titlePulse 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes titlePulse {
+            from { text-shadow: 0 0 20px #00ff41; }
+            to { text-shadow: 0 0 40px #00ff41, 0 0 60px #00ff41; }
+        }
+
+        .welcome-subtitle {
+            font-size: 16px;
+            margin-bottom: 30px;
+            opacity: 0.8;
+            color: #9932cc;
+        }
+
+        .form-container {
+            margin: 30px 0;
+        }
+
+        .input-group {
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 15px 20px;
+            background: rgba(0, 255, 65, 0.1);
+            border: 2px solid #00ff41;
+            border-radius: 10px;
+            color: #00ff41;
+            font-family: 'Fira Code', monospace;
+            font-size: 16px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .input-field:focus {
+            outline: none;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+            background: rgba(0, 255, 65, 0.2);
+        }
+
+        .input-field::placeholder {
+            color: rgba(0, 255, 65, 0.5);
+        }
+
+        .enter-btn {
+            background: linear-gradient(45deg, #00ff41, #9932cc);
+            border: none;
+            padding: 15px 40px;
+            border-radius: 25px;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 20px;
+            font-family: 'Fira Code', monospace;
+            animation: buttonFloat 3s ease-in-out infinite;
+        }
+
+        @keyframes buttonFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .enter-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(0, 255, 65, 0.4);
+        }
+
+        .enter-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .features-preview {
+            margin-top: 30px;
+            font-size: 12px;
+            opacity: 0.7;
+            line-height: 1.6;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 20;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .loading-spinner {
+            border: 4px solid rgba(0, 255, 65, 0.3);
+            border-top: 4px solid #00ff41;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 18px;
+            color: #00ff41;
+            text-align: center;
+        }
+
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            background: #00ff41;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        @media (max-width: 768px) {
+            .welcome-container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            .welcome-title {
+                font-size: 24px;
+            }
+
+            .logo-animation {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="threejs-container"></div>
+
+    <div class="welcome-overlay">
+        <div class="welcome-container">
+            <div class="particles" id="particles"></div>
+
+            <div class="logo-animation">🚀</div>
+
+            <h1 class="welcome-title">🎉 مرحباً بك في CODEX TEAM</h1>
+            <p class="welcome-subtitle">✅ تم التحقق الأمني بنجاح - أدوات الهاكر المتقدمة والحلول الآمنة</p>
+
+            <div class="form-container">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="username" 
+                        class="input-field" 
+                        placeholder="أدخل اسم المستخدم الخاص بك..."
+                        maxlength="20"
+                        required
+                    >
+                </div>
+
+                <button id="enterBtn" class="enter-btn" onclick="registerUser()">
+                    🌟 دخول النظام
+                </button>
+            </div>
+
+            <div class="features-preview">
+                🎯 Bio Update • 📦 Item Injector • 👥 Friend Spammer<br>
+                ❤️ Like Bomber • 👁️ Visit Sender • 🛡️ Ban Checker<br>
+                🖼️ Banner Controller • 👕 Outfit Injector
+            </div>
+        </div>
+    </div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">
+            جاري تحضير النظام...<br>
+            <span style="font-size: 14px; opacity: 0.7;">يرجى الانتظار</span>
+        </div>
+    </div>
+
+    <script>
+        // Three.js 3D Background Animation
+        let scene, camera, renderer, stars = [];
+
+        function initThreeJS() {
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setClearColor(0x000000, 0.8);
+            document.getElementById('threejs-container').appendChild(renderer.domElement);
+
+            // Create animated star field
+            createStarField();
+
+            // Create floating cubes
+            createFloatingCubes();
+
+            // Create matrix digital rain
+            createMatrixRain();
+
+            camera.position.z = 5;
+            animate();
+        }
+
+        function createStarField() {
+            const starGeometry = new THREE.BufferGeometry();
+            const starCount = 2000;
+            const positions = new Float32Array(starCount * 3);
+
+            for (let i = 0; i < starCount * 3; i++) {
+                positions[i] = (Math.random() - 0.5) * 2000;
+            }
+
+            starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+            const starMaterial = new THREE.PointsMaterial({
+                color: 0x00ff41,
+                size: 2,
+                transparent: true,
+                opacity: 0.8
+            });
+
+            const starField = new THREE.Points(starGeometry, starMaterial);
+            scene.add(starField);
+            stars.push(starField);
+        }
+
+        function createFloatingCubes() {
+            for (let i = 0; i < 20; i++) {
+                const geometry = new THREE.BoxGeometry(
+                    Math.random() * 2 + 0.5,
+                    Math.random() * 2 + 0.5,
+                    Math.random() * 2 + 0.5
+                );
+
+                const material = new THREE.MeshBasicMaterial({
+                    color: Math.random() > 0.5 ? 0x00ff41 : 0x9932cc,
+                    wireframe: true,
+                    transparent: true,
+                    opacity: 0.6
+                });
+
+                const cube = new THREE.Mesh(geometry, material);
+                cube.position.set(
+                    (Math.random() - 0.5) * 100,
+                    (Math.random() - 0.5) * 100,
+                    (Math.random() - 0.5) * 100
+                );
+
+                cube.rotation.set(
+                    Math.random() * Math.PI,
+                    Math.random() * Math.PI,
+                    Math.random() * Math.PI
+                );
+
+                scene.add(cube);
+                stars.push(cube);
+            }
+        }
+
+        function createMatrixRain() {
+            const loader = new THREE.FontLoader();
+            // Simplified matrix effect with particles
+            for (let i = 0; i < 100; i++) {
+                const geometry = new THREE.PlaneGeometry(0.5, 0.5);
+                const material = new THREE.MeshBasicMaterial({
+                    color: 0x00ff41,
+                    transparent: true,
+                    opacity: Math.random() * 0.8 + 0.2
+                });
+
+                const plane = new THREE.Mesh(geometry, material);
+                plane.position.set(
+                    (Math.random() - 0.5) * 200,
+                    Math.random() * 100 + 50,
+                    (Math.random() - 0.5) * 100
+                );
+
+                scene.add(plane);
+                stars.push(plane);
+            }
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+
+            // Animate all objects
+            stars.forEach((star, index) => {
+                if (star.geometry && star.geometry.attributes.position) {
+                    // Star field rotation
+                    star.rotation.y += 0.001;
+                } else {
+                    // Cubes and planes animation
+                    star.rotation.x += 0.01;
+                    star.rotation.y += 0.01;
+
+                    // Matrix rain effect
+                    if (index > 20) {
+                        star.position.y -= 0.5;
+                        if (star.position.y < -50) {
+                            star.position.y = 50;
+                        }
+                    }
+                }
+            });
+
+            renderer.render(scene, camera);
+        }
+
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+
+            for (let i = 0; i < 15; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.width = Math.random() * 4 + 2 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // User registration function
+        async function registerUser() {
+            const username = document.getElementById('username').value.trim();
+            const enterBtn = document.getElementById('enterBtn');
+            const loadingOverlay = document.getElementById('loadingOverlay');
+
+            if (!username) {
+                showError('يرجى إدخال اسم المستخدم');
+                return;
+            }
+
+            if (username.length < 3) {
+                showError('اسم المستخدم يجب أن يكون 3 أحرف على الأقل');
+                return;
+            }
+
+            // Validate username (Arabic, English, numbers only)
+            const validUsername = /^[a-zA-Z0-9\u0600-\u06FF\u0750-\u077F]+$/;
+            if (!validUsername.test(username)) {
+                showError('اسم المستخدم يجب أن يحتوي على أحرف وأرقام فقط');
+                return;
+            }
+
+            enterBtn.disabled = true;
+            loadingOverlay.style.display = 'flex';
+
+            // Update loading text with welcome message
+            document.querySelector('.loading-text').innerHTML = `
+                جاري تحضير النظام لـ <span style="color: #00ff41; font-weight: bold;">${username}</span>...<br>
+                <span style="font-size: 14px; opacity: 0.7;">مرحباً بك في S1X TEAM</span>
+            `;
+
+            try {
+                const response = await fetch('/api/register-user', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ username: username })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    // Store user data in localStorage
+                    localStorage.setItem('codex_user', JSON.stringify({
+                        username: username,
+                        userId: result.user_id,
+                        registeredAt: new Date().toISOString()
+                    }));
+
+                    // Show success message with beautiful animation
+                    document.querySelector('.loading-text').innerHTML = `
+                        <div style="font-size: 24px; color: #00ff41; margin-bottom: 15px;">✅ تم بنجاح!</div>
+                        <div style="font-size: 18px; color: #9932cc; margin-bottom: 10px;">أهلاً وسهلاً ${username}</div>
+                        <div style="font-size: 14px; opacity: 0.8;">جاري الانتقال لوحة التحكم...</div>
+                    `;
+
+                    // Smooth transition to main site with welcome
+                    setTimeout(() => {
+                        window.location.href = result.redirect_url || `/dashboard?welcome=true&username=${username}`;
+                    }, 2500);
+                } else {
+                    throw new Error(result.message || 'فشل في تسجيل المستخدم');
+                }
+
+            } catch (error) {
+                console.error('Registration error:', error);
+                showError('حدث خطأ في تسجيل المستخدم، يرجى المحاولة مرة أخرى');
+                loadingOverlay.style.display = 'none';
+                enterBtn.disabled = false;
+
+                // Reset loading text
+                document.querySelector('.loading-text').innerHTML = `
+                    جاري تحضير النظام...<br>
+                    <span style="font-size: 14px; opacity: 0.7;">يرجى الانتظار</span>
+                `;
+            }
+        }
+
+        function showError(message) {
+            const existingError = document.querySelector('.error-message');
+            if (existingError) {
+                existingError.remove();
+            }
+
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+            errorDiv.style.cssText = `
+                color: #ff0080;
+                background: rgba(255, 0, 128, 0.1);
+                border: 1px solid #ff0080;
+                padding: 10px;
+                border-radius: 5px;
+                margin: 10px 0;
+                text-align: center;
+                font-size: 14px;
+                animation: shake 0.5s ease-in-out;
+            `;
+            errorDiv.textContent = message;
+
+            const formContainer = document.querySelector('.form-container');
+            formContainer.appendChild(errorDiv);
+
+            // Remove error after 5 seconds
+            setTimeout(() => {
+                if (errorDiv.parentNode) {
+                    errorDiv.remove();
+                }
+            }, 5000);
+        }
+
+        // Add shake animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes shake {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(-5px); }
+                75% { transform: translateX(5px); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Enter key support
+        document.getElementById('username').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                registerUser();
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            if (camera && renderer) {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            }
+        });
+
+        // Initialize everything
+        document.addEventListener('DOMContentLoaded', function() {
+            // فحص حالة التحقق الأمني أولاً
+            checkSecurityVerification();
+
+            initThreeJS();
+            createParticles();
+
+            // Focus on username input
+            setTimeout(() => {
+                document.getElementById('username').focus();
+            }, 500);
+        });
+
+        // فحص حالة التحقق الأمني
+        async function checkSecurityVerification() {
+            try {
+                // فحص إذا كان المستخدم اجتاز الـ CAPTCHA
+                const response = await fetch('/api/security/verification-status');
+                const result = await response.json();
+
+                if (!result.captcha_verified) {
+                    // إذا لم يجتز الـ CAPTCHA، إعادة توجيه للصفحة الرئيسية
+                    showError('يرجى إجتياز التحقق الأمني أولاً');
+                    setTimeout(() => {
+                        window.location.href = '/';
+                    }, 2000);
+                    return;
+                }
+            } catch (error) {
+                console.log('تحقق أمني: ', error);
+                // في حالة الخطأ، السماح بالمتابعة للمستخدمين الحاليين
+            }
+        }
+    </script>
+</body>
+</html>

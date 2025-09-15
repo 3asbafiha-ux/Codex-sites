@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<div id="tutorial-modal" class="tutorial-modal" style="display: none;">
+    <div class="tutorial-content">
+        <div class="tutorial-header">
+            <h2 class="tutorial-title">🎮 مرحباً بك في S1X TEAM</h2>
+            <span class="tutorial-close" onclick="closeTutorial()">&times;</span>
+        </div>
+
+        <div class="tutorial-body">
+            <div class="tutorial-slide active" data-slide="1">
+                <div class="slide-content">
+                    <div class="tutorial-icon">🚀</div>
+                    <h3>Welcome to S1X TEAM / مرحباً بكم في فريق S1X TEAM</h3>
+                    <p class="english">Welcome to the ultimate Free Fire hacking platform! This tutorial will guide you through all our powerful tools.</p>
+                    <p class="arabic">مرحباً بكم في منصة اختراق فري فاير المتطورة! هذا الدليل سيوضح لكم جميع أدواتنا القوية.</p>
+                    <div class="tutorial-image">
+                        <div style="width: 300px; height: 200px; background: linear-gradient(135deg, #00ff41, #9932cc); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px;">🎯 S1X TEAM</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-slide" data-slide="2">
+                <div class="slide-content">
+                    <div class="tutorial-icon">✏️</div>
+                    <h3>Bio Update Tool / أداة تحديث البايو</h3>
+                    <p class="english">Change your Free Fire profile bio instantly using your access token.</p>
+                    <p class="arabic">غيّر بايو ملفك الشخصي في فري فاير فوراً باستخدام رمز الوصول.</p>
+                    <div class="example-box">
+                        <h4>Example / مثال:</h4>
+                        <div class="input-example">
+                            <label>Access Token:</label>
+                            <code>a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0</code>
+                        </div>
+                        <div class="input-example">
+                            <label>New Bio:</label>
+                            <code>🎮 S1X TEAM Member | Pro Gamer 🔥</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-slide" data-slide="3">
+                <div class="slide-content">
+                    <div class="tutorial-icon">📦</div>
+                    <h3>Item Injector / حقن العناصر</h3>
+                    <p class="english">Inject Free Fire items into your account. Authenticate first, then choose single or multiple item mode.</p>
+                    <p class="arabic">احقن عناصر فري فاير في حسابك. تأكد من التوثيق أولاً، ثم اختر وضع عنصر واحد أو عناصر متعددة.</p>
+                    <div class="example-box">
+                        <h4>Steps / الخطوات:</h4>
+                        <ol>
+                            <li class="english">1. Enter your access token</li>
+                            <li class="arabic">1. أدخل رمز الوصول الخاص بك</li>
+                            <li class="english">2. Click "Authenticate"</li>
+                            <li class="arabic">2. اضغط على "التوثيق"</li>
+                            <li class="english">3. Enter item ID: <code>12345678</code></li>
+                            <li class="arabic">3. أدخل معرف العنصر: <code>12345678</code></li>
+                            <li class="english">4. Click "Inject Items"</li>
+                            <li class="arabic">4. اضغط على "حقن العناصر"</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-slide" data-slide="4">
+                <div class="slide-content">
+                    <div class="tutorial-icon">🔧</div>
+                    <h3>API Tools / أدوات API</h3>
+                    <p class="english">Access powerful API tools for user scanning, friend requests, likes, visits, and more!</p>
+                    <p class="arabic">استخدم أدوات API القوية لفحص المستخدمين وطلبات الصداقة والإعجابات والزيارات والمزيد!</p>
+                    <div class="api-examples">
+                        <div class="api-item">
+                            <strong>User Scanner:</strong> <code>12345678</code>
+                        </div>
+                        <div class="api-item">
+                            <strong>Friend Spammer:</strong> <code>87654321</code>
+                        </div>
+                        <div class="api-item">
+                            <strong>Like Bomber:</strong> <code>11223344</code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorial-slide" data-slide="5">
+                <div class="slide-content">
+                    <div class="tutorial-icon">⚠️</div>
+                    <h3>Important Notes / ملاحظات مهمة</h3>
+                    <div class="warning-box">
+                        <p class="english">🔒 Keep your access tokens secure and never share them!</p>
+                        <p class="arabic">🔒 احتفظ برموز الوصول آمنة ولا تشاركها مع أحد!</p>
+                        <p class="english">⚡ This tool is for educational purposes only</p>
+                        <p class="arabic">⚡ هذه الأداة للأغراض التعليمية فقط</p>
+                        <p class="english">🎯 Contact our developers for support</p>
+                        <p class="arabic">🎯 تواصل مع المطورين للحصول على الدعم</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tutorial-navigation">
+            <button class="nav-btn prev-btn" onclick="previousSlide()" disabled>Previous / السابق</button>
+            <div class="slide-indicator">
+                <span class="slide-dot active" data-slide="1"></span>
+                <span class="slide-dot" data-slide="2"></span>
+                <span class="slide-dot" data-slide="3"></span>
+                <span class="slide-dot" data-slide="4"></span>
+                <span class="slide-dot" data-slide="5"></span>
+            </div>
+            <button class="nav-btn next-btn" onclick="nextSlide()">Next / التالي</button>
+            <button class="nav-btn finish-btn" onclick="finishTutorial()" style="display: none;">لقد فهمت / I Understand</button>
+        </div>
+    </div>
+</div>
+
+<style>
+.tutorial-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+.tutorial-content {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(0, 20, 0, 0.95));
+    border: 3px solid #00ff41;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    box-shadow: 0 0 50px rgba(0, 255, 65, 0.3);
+    animation: tutorialSlideIn 0.5s ease-out;
+}
+
+@keyframes tutorialSlideIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.tutorial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 2px solid #9932cc;
+    background: rgba(153, 50, 204, 0.1);
+}
+
+.tutorial-title {
+    color: #00ff41;
+    font-family: 'Fira Code', monospace;
+    text-shadow: 0 0 15px #00ff41;
+    margin: 0;
+}
+
+.tutorial-close {
+    color: #ff0000;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.tutorial-close:hover {
+    color: #ff6666;
+    text-shadow: 0 0 10px #ff0000;
+    transform: scale(1.1);
+}
+
+.tutorial-body {
+    padding: 30px;
+    min-height: 400px;
+    position: relative;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.tutorial-slide {
+    display: none;
+    animation: slideIn 0.3s ease-in-out;
+}
+
+.tutorial-slide.active {
+    display: block;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.slide-content {
+    text-align: center;
+}
+
+.tutorial-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+.slide-content h3 {
+    color: #9932cc;
+    font-family: 'Fira Code', monospace;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #9932cc;
+}
+
+.english {
+    color: #00ff41;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.arabic {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+.example-box, .warning-box {
+    background: rgba(153, 50, 204, 0.1);
+    border: 2px solid rgba(153, 50, 204, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.warning-box {
+    background: rgba(255, 140, 0, 0.1);
+    border-color: rgba(255, 140, 0, 0.3);
+}
+
+.input-example {
+    margin: 15px 0;
+}
+
+.input-example label {
+    color: #9932cc;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-example code {
+    background: rgba(0, 0, 0, 0.5);
+    color: #00ff41;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    border: 1px solid rgba(0, 255, 65, 0.3);
+    display: block;
+    margin-top: 5px;
+}
+
+.api-examples {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.api-item {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 255, 65, 0.3);
+    color: #00ff41;
+    font-family: 'Fira Code', monospace;
+}
+
+.tutorial-navigation {
+    padding: 20px 30px;
+    border-top: 2px solid #9932cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-btn {
+    background: #9932cc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover:not(:disabled) {
+    background: #00ff41;
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+    transform: scale(1.05);
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.finish-btn {
+    background: #00ff41;
+    color: black;
+}
+
+.slide-indicator {
+    display: flex;
+    gap: 10px;
+}
+
+.slide-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(153, 50, 204, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slide-dot.active {
+    background: #9932cc;
+    box-shadow: 0 0 10px #9932cc;
+}
+
+.slide-dot:hover {
+    background: #00ff41;
+    box-shadow: 0 0 10px #00ff41;
+}
+
+.tutorial-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .tutorial-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .tutorial-header, .tutorial-body, .tutorial-navigation {
+        padding: 15px 20px;
+    }
+
+    .tutorial-title {
+        font-size: 1.5rem;
+    }
+
+    .tutorial-icon {
+        font-size: 3rem;
+    }
+
+    .nav-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+</style>
+
+<script>
+let currentSlide = 1;
+const totalSlides = 5;
+
+function showSlide(slideNumber) {
+    // Hide all slides
+    document.querySelectorAll('.tutorial-slide').forEach(slide => {
+        slide.classList.remove('active');
+    });
+
+    // Show current slide
+    document.querySelector(`[data-slide="${slideNumber}"]`).classList.add('active');
+
+    // Update slide dots
+    document.querySelectorAll('.slide-dot').forEach(dot => {
+        dot.classList.remove('active');
+    });
+    document.querySelector(`[data-slide="${slideNumber}"].slide-dot`).classList.add('active');
+
+    // Update navigation buttons
+    document.querySelector('.prev-btn').disabled = slideNumber === 1;
+
+    if (slideNumber === totalSlides) {
+        document.querySelector('.next-btn').style.display = 'none';
+        document.querySelector('.finish-btn').style.display = 'block';
+    } else {
+        document.querySelector('.next-btn').style.display = 'block';
+        document.querySelector('.finish-btn').style.display = 'none';
+    }
+
+    currentSlide = slideNumber;
+}
+
+function nextSlide() {
+    if (currentSlide < totalSlides) {
+        showSlide(currentSlide + 1);
+    }
+}
+
+function previousSlide() {
+    if (currentSlide > 1) {
+        showSlide(currentSlide - 1);
+    }
+}
+
+function closeTutorial() {
+    document.getElementById('tutorial-modal').style.display = 'none';
+    localStorage.setItem('tutorialCompleted', 'true');
+}
+
+function finishTutorial() {
+    closeTutorial();
+    // Show success message
+    if (typeof api !== 'undefined' && api.showResult) {
+        api.showResult('Tutorial Completed', 'أكملت الدليل التعليمي بنجاح! / Tutorial completed successfully! You can now use all S1X TEAM tools.', true);
+    }
+}
+
+// Add click handlers for slide dots
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.slide-dot').forEach(dot => {
+        dot.addEventListener('click', () => {
+            const slideNumber = parseInt(dot.getAttribute('data-slide'));
+            showSlide(slideNumber);
+        });
+    });
+});
+
+// Show tutorial on first visit
+function checkFirstVisit() {
+    const hasVisited = localStorage.getItem('tutorialCompleted');
+    if (!hasVisited) {
+        setTimeout(() => {
+            document.getElementById('tutorial-modal').style.display = 'flex';
+        }, 1000);
+    }
+}
+
+// Auto-start tutorial check
+document.addEventListener('DOMContentLoaded', checkFirstVisit);
+</script>
