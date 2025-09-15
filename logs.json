@@ -1,0 +1,5309 @@
+[
+  {
+    "timestamp": 1755873599,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T14:39:59.566399"
+  },
+  {
+    "timestamp": 1755873645,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T14:40:45.605691"
+  },
+  {
+    "timestamp": 1755873764,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T14:42:44.457884"
+  },
+  {
+    "timestamp": 1755873849,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T14:44:09.012764"
+  },
+  {
+    "timestamp": 1755873850,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T14:44:10.181381"
+  },
+  {
+    "timestamp": 1755875412,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:10:12.618631"
+  },
+  {
+    "timestamp": 1755876043,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:20:43.714800"
+  },
+  {
+    "timestamp": 1755876299,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "admin"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:24:59.792637"
+  },
+  {
+    "timestamp": 1755876469,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "admin"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:27:49.779308"
+  },
+  {
+    "timestamp": 1755876679,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:31:19.411606"
+  },
+  {
+    "timestamp": 1755876740,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:32:20.691157"
+  },
+  {
+    "timestamp": 1755876876,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:34:36.289612"
+  },
+  {
+    "timestamp": 1755876917,
+    "action": "TOKEN_REGENERATED",
+    "details": {
+      "username": "admin"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:35:17.422154"
+  },
+  {
+    "timestamp": 1755876943,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "user_info",
+      "status": 500
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:35:43.103429"
+  },
+  {
+    "timestamp": 1755877007,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:36:47.994764"
+  },
+  {
+    "timestamp": 1755877011,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:36:51.896861"
+  },
+  {
+    "timestamp": 1755877099,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:38:19.244901"
+  },
+  {
+    "timestamp": 1755877155,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "validate_token",
+      "status": 402
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:15.332022"
+  },
+  {
+    "timestamp": 1755877163,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "update_bio",
+      "status": 405
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:23.882926"
+  },
+  {
+    "timestamp": 1755877163,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "update_bio",
+      "status": 405
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:23.933085"
+  },
+  {
+    "timestamp": 1755877170,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "validate_token",
+      "status": 402
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:30.449759"
+  },
+  {
+    "timestamp": 1755877183,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "get_outfit",
+      "status": 403
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:43.835946"
+  },
+  {
+    "timestamp": 1755877191,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "get_banner",
+      "status": 403
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:39:51.700521"
+  },
+  {
+    "timestamp": 1755877232,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:40:32.193064"
+  },
+  {
+    "timestamp": 1755877253,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:40:53.415867"
+  },
+  {
+    "timestamp": 1755877264,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:41:04.738559"
+  },
+  {
+    "timestamp": 1755877277,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:41:17.034694"
+  },
+  {
+    "timestamp": 1755877290,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:41:30.405857"
+  },
+  {
+    "timestamp": 1755877298,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:41:38.835886"
+  },
+  {
+    "timestamp": 1755877515,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:45:15.413676"
+  },
+  {
+    "timestamp": 1755877644,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:47:24.256887"
+  },
+  {
+    "timestamp": 1755877695,
+    "action": "BACKUP_CREATED",
+    "details": {
+      "backup_name": "backup_1755877695.zip"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:48:15.079858"
+  },
+  {
+    "timestamp": 1755877707,
+    "action": "BACKUP_CREATED",
+    "details": {
+      "backup_name": "backup_1755877707.zip"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:48:27.138114"
+  },
+  {
+    "timestamp": 1755877724,
+    "action": "SYSTEM_RESTART",
+    "details": {
+      "initiated_by": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T15:48:44.220696"
+  },
+  {
+    "timestamp": 1755879856,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:24:16.584230"
+  },
+  {
+    "timestamp": 1755879925,
+    "action": "BACKUP_CREATED",
+    "details": {
+      "backup_name": "backup_1755879925.zip"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:25:25.474364"
+  },
+  {
+    "timestamp": 1755880230,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:30:30.005426"
+  },
+  {
+    "timestamp": 1755880376,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:32:56.871068"
+  },
+  {
+    "timestamp": 1755880438,
+    "action": "API_TEST",
+    "details": {
+      "endpoint": "validate_token",
+      "status": 402
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:33:58.540984"
+  },
+  {
+    "timestamp": 1755880458,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1755880458.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:18.507377"
+  },
+  {
+    "timestamp": 1755880458,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1755880458.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:18.678135"
+  },
+  {
+    "timestamp": 1755880458,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1755880458.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:18.870266"
+  },
+  {
+    "timestamp": 1755880459,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1755880459.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:19.002838"
+  },
+  {
+    "timestamp": 1755880459,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755880459.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:19.138234"
+  },
+  {
+    "timestamp": 1755880459,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755880459.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:34:19.274607"
+  },
+  {
+    "timestamp": 1755880879,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:41:19.731001"
+  },
+  {
+    "timestamp": 1755880904,
+    "action": "VISITORS_CLEARED",
+    "details": {},
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:41:44.589749"
+  },
+  {
+    "timestamp": 1755880930,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1755880930.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:10.921737"
+  },
+  {
+    "timestamp": 1755880931,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1755880931.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:11.167482"
+  },
+  {
+    "timestamp": 1755880931,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1755880931.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:11.365012"
+  },
+  {
+    "timestamp": 1755880931,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1755880931.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:11.557221"
+  },
+  {
+    "timestamp": 1755880931,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755880931.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:11.763443"
+  },
+  {
+    "timestamp": 1755880931,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755880931.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:42:11.971634"
+  },
+  {
+    "timestamp": 1755880990,
+    "action": "ANNOUNCEMENT_CREATED",
+    "details": {
+      "message": "BLRXH4RDIXX",
+      "type": "warning"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:43:10.921610"
+  },
+  {
+    "timestamp": 1755881028,
+    "action": "SITE_RESTORED",
+    "details": {},
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:43:48.244050"
+  },
+  {
+    "timestamp": 1755881052,
+    "action": "EMERGENCY_SHUTDOWN",
+    "details": {
+      "reason": "Emergency maintenance"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:44:12.105312"
+  },
+  {
+    "timestamp": 1755881070,
+    "action": "SITE_RESTORED",
+    "details": {},
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:44:30.437716"
+  },
+  {
+    "timestamp": 1755881080,
+    "action": "ANNOUNCEMENT_TOGGLED",
+    "details": {
+      "status": "disabled"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:44:40.905122"
+  },
+  {
+    "timestamp": 1755881087,
+    "action": "THEME_CHANGED",
+    "details": {
+      "theme": "light"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:44:47.819389"
+  },
+  {
+    "timestamp": 1755881140,
+    "action": "VISITORS_CLEARED",
+    "details": {},
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:45:40.550962"
+  },
+  {
+    "timestamp": 1755881161,
+    "action": "IP_BLOCKED",
+    "details": {
+      "ip": "197.3.132.78",
+      "reason": "LZM NIK",
+      "permanent": false
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:46:01.860686"
+  },
+  {
+    "timestamp": 1755881267,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:47:47.110403"
+  },
+  {
+    "timestamp": 1755881269,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:47:49.671468"
+  },
+  {
+    "timestamp": 1755881294,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:48:14.423133"
+  },
+  {
+    "timestamp": 1755881320,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:48:40.959189"
+  },
+  {
+    "timestamp": 1755881376,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:49:36.699716"
+  },
+  {
+    "timestamp": 1755881516,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:51:56.909732"
+  },
+  {
+    "timestamp": 1755881523,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1755881523.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:03.941543"
+  },
+  {
+    "timestamp": 1755881524,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1755881524.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:04.158961"
+  },
+  {
+    "timestamp": 1755881524,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1755881524.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:04.298594"
+  },
+  {
+    "timestamp": 1755881524,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1755881524.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:04.439875"
+  },
+  {
+    "timestamp": 1755881524,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755881524.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:04.577475"
+  },
+  {
+    "timestamp": 1755881524,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881524.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:04.717221"
+  },
+  {
+    "timestamp": 1755881557,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881557.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:52:37.760236"
+  },
+  {
+    "timestamp": 1755881649,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1755881649.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:09.006676"
+  },
+  {
+    "timestamp": 1755881649,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1755881649.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:09.180978"
+  },
+  {
+    "timestamp": 1755881649,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1755881649.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:09.392103"
+  },
+  {
+    "timestamp": 1755881649,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1755881649.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:09.605723"
+  },
+  {
+    "timestamp": 1755881649,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755881649.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:09.800737"
+  },
+  {
+    "timestamp": 1755881650,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881650.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:10.003926"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.022773"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.164990"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.306532"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.446185"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.592309"
+  },
+  {
+    "timestamp": 1755881656,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881656.json"
+    },
+    "user": "BLRXH4RDIXX",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:54:16.736832"
+  },
+  {
+    "timestamp": 1755881732,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "admin"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:55:32.631299"
+  },
+  {
+    "timestamp": 1755881771,
+    "action": "ADMIN_LOGIN_FAILED",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:56:11.450780"
+  },
+  {
+    "timestamp": 1755881858,
+    "action": "ADMIN_LOGIN",
+    "details": {
+      "username": "admin"
+    },
+    "user": "admin",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:57:38.166969"
+  },
+  {
+    "timestamp": 1755881900,
+    "action": "USER_CREATED",
+    "details": {
+      "username": "GRINTA",
+      "role": "admin"
+    },
+    "user": "admin",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:58:20.646441"
+  },
+  {
+    "timestamp": 1755881921,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881921.json"
+    },
+    "user": "admin",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:58:41.829511"
+  },
+  {
+    "timestamp": 1755881930,
+    "action": "DATA_EXPORTED",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755881930.json"
+    },
+    "user": "admin",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T16:58:50.827956"
+  },
+  {
+    "timestamp": 1755883170,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:19:30.380202",
+    "session_id": null,
+    "log_id": "LOG_1755883170_6800ef9a"
+  },
+  {
+    "timestamp": 1755883187,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX",
+        "GRINTA"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:19:47.397116",
+    "session_id": null,
+    "log_id": "LOG_1755883187_c9588c7e"
+  },
+  {
+    "timestamp": 1755883540,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:25:40.317277",
+    "session_id": null,
+    "log_id": "LOG_1755883540_fd1bb007"
+  },
+  {
+    "timestamp": 1755883629,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:27:09.636355",
+    "session_id": null,
+    "log_id": "LOG_1755883629_11203bf7"
+  },
+  {
+    "timestamp": 1755883665,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:27:45.174290",
+    "session_id": null,
+    "log_id": "LOG_1755883665_475225ac"
+  },
+  {
+    "timestamp": 1755884149,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:35:49.648969",
+    "session_id": null,
+    "log_id": "LOG_1755884149_b6dfde7b"
+  },
+  {
+    "timestamp": 1755884324,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:38:44.375888",
+    "session_id": null,
+    "log_id": "LOG_1755884324_be525543"
+  },
+  {
+    "timestamp": 1755884364,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX",
+        "GRINTA"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:39:24.069525",
+    "session_id": null,
+    "log_id": "LOG_1755884364_7438716f"
+  },
+  {
+    "timestamp": 1755884388,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX",
+        "GRINTA"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:39:48.230756",
+    "session_id": null,
+    "log_id": "LOG_1755884388_edbc276a"
+  },
+  {
+    "timestamp": 1755885074,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:51:14.461235",
+    "session_id": null,
+    "log_id": "LOG_1755885074_59bd9158"
+  },
+  {
+    "timestamp": 1755885428,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T17:57:08.561066",
+    "session_id": null,
+    "log_id": "LOG_1755885428_da9f2200"
+  },
+  {
+    "timestamp": 1755885614,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1755885614.json",
+      "file_size": 2,
+      "records_count": "complex_structure"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:00:14.048979",
+    "session_id": null,
+    "log_id": "LOG_1755885614_930a4246"
+  },
+  {
+    "timestamp": 1755885618,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1755885618.json",
+      "file_size": 28477,
+      "records_count": 104
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:00:18.576755",
+    "session_id": null,
+    "log_id": "LOG_1755885618_f8fcf1a5"
+  },
+  {
+    "timestamp": 1755885629,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX",
+        "GRINTA"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:00:29.426053",
+    "session_id": null,
+    "log_id": "LOG_1755885629_552b3dc4"
+  },
+  {
+    "timestamp": 1755886370,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:12:50.890350",
+    "session_id": null,
+    "log_id": "LOG_1755886370_9d1e7e64"
+  },
+  {
+    "timestamp": 1755886400,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:13:20.469770",
+    "session_id": null,
+    "log_id": "LOG_1755886400_27d1dbe4"
+  },
+  {
+    "timestamp": 1755886403,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX",
+        "GRINTA"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:13:23.381733",
+    "session_id": null,
+    "log_id": "LOG_1755886403_a40df3c7"
+  },
+  {
+    "timestamp": 1755886416,
+    "action": "USER_DELETED",
+    "action_display": "🗑️ حذف مستخدم",
+    "risk_level": "HIGH",
+    "details": {
+      "deleted_user": "GRINTA",
+      "deleted_role": "admin",
+      "deleted_by": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:13:36.465179",
+    "session_id": null,
+    "log_id": "LOG_1755886416_f14ffa25"
+  },
+  {
+    "timestamp": 1755886416,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:13:36.693038",
+    "session_id": null,
+    "log_id": "LOG_1755886416_82c91ed2"
+  },
+  {
+    "timestamp": 1755886498,
+    "action": "ACCOUNT_TAKEOVER",
+    "action_display": "ACCOUNT_TAKEOVER",
+    "risk_level": "LOW",
+    "details": {
+      "target_user": "admin",
+      "taken_over_by": "BLRXH4RDIXX",
+      "takeover_session": "CODEX_jGmqPFRcyancRQmDgzK93w_1755886498_TAKEOVER"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:14:58.127516",
+    "session_id": null,
+    "log_id": "LOG_1755886498_b5520bb7"
+  },
+  {
+    "timestamp": 1755886572,
+    "action": "FORCE_PASSWORD_RESET",
+    "action_display": "FORCE_PASSWORD_RESET",
+    "risk_level": "LOW",
+    "details": {
+      "target_user": "bngx_admin",
+      "forced_by": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:16:12.159605",
+    "session_id": null,
+    "log_id": "LOG_1755886572_3c4908d1"
+  },
+  {
+    "timestamp": 1755886583,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:16:23.341358",
+    "session_id": null,
+    "log_id": "LOG_1755886583_70781cbd"
+  },
+  {
+    "timestamp": 1755887105,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:25:05.450133",
+    "session_id": null,
+    "log_id": "LOG_1755887105_c2fe8269"
+  },
+  {
+    "timestamp": 1755887112,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T18:25:12.925627",
+    "session_id": null,
+    "log_id": "LOG_1755887112_a27ff2ec"
+  },
+  {
+    "timestamp": 1755902153,
+    "action": "UNAUTHORIZED_API_ACCESS",
+    "action_display": "UNAUTHORIZED_API_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "endpoint": "get_user_info",
+      "ip": "149.154.161.216",
+      "user_agent": "TelegramBot (like TwitterBot)",
+      "referer": "",
+      "origin": ""
+    },
+    "user": null,
+    "user_agent": "TelegramBot (like TwitterBot)",
+    "ip": "149.154.161.216",
+    "datetime": "2025-08-22T22:35:53.194065",
+    "session_id": null,
+    "log_id": "LOG_1755902153_4a3a97b8"
+  },
+  {
+    "timestamp": 1755902169,
+    "action": "UNAUTHORIZED_API_ACCESS",
+    "action_display": "UNAUTHORIZED_API_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "endpoint": "get_user_info",
+      "ip": "197.3.132.78",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.8.2 Mobile/19H384 Safari/604.1",
+      "referer": "",
+      "origin": ""
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.8.2 Mobile/19H384 Safari/604.1",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T22:36:09.205243",
+    "session_id": null,
+    "log_id": "LOG_1755902169_63139e73"
+  },
+  {
+    "timestamp": 1755902187,
+    "action": "UNAUTHORIZED_API_ACCESS",
+    "action_display": "UNAUTHORIZED_API_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "endpoint": "get_user_info",
+      "ip": "197.3.132.78",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.8.2 Mobile/19H384 Safari/604.1",
+      "referer": "",
+      "origin": ""
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.8.2 Mobile/19H384 Safari/604.1",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-22T22:36:27.064865",
+    "session_id": null,
+    "log_id": "LOG_1755902187_11f6afaa"
+  },
+  {
+    "timestamp": 1755914502,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=2067113922",
+      "ip": "197.3.132.78"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:01:42.298890",
+    "session_id": null,
+    "log_id": "LOG_1755914502_d0f5c11d"
+  },
+  {
+    "timestamp": 1755914502,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:01:42.610159",
+    "session_id": null,
+    "log_id": "LOG_1755914502_a62b812c"
+  },
+  {
+    "timestamp": 1755915304,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=2067113922",
+      "ip": "197.3.132.78"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:15:04.900237",
+    "session_id": null,
+    "log_id": "LOG_1755915304_6df13838"
+  },
+  {
+    "timestamp": 1755915306,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:15:06.287092",
+    "session_id": null,
+    "log_id": "LOG_1755915306_9d7997c7"
+  },
+  {
+    "timestamp": 1755915461,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=2067113922",
+      "ip": "197.3.132.78"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:17:41.619065",
+    "session_id": null,
+    "log_id": "LOG_1755915461_17626f5b"
+  },
+  {
+    "timestamp": 1755915461,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "2067113922",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:17:41.927668",
+    "session_id": null,
+    "log_id": "LOG_1755915461_1c69ad6e"
+  },
+  {
+    "timestamp": 1755917693,
+    "action": "VISIT_REQUEST_ATTEMPT",
+    "action_display": "VISIT_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://visiit.vercel.app/send_visit?player_id=12345678",
+      "ip": "197.3.132.78"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:54:53.004430",
+    "session_id": null,
+    "log_id": "LOG_1755917693_023a84e3"
+  },
+  {
+    "timestamp": 1755917694,
+    "action": "VISIT_REQUEST_RESPONSE",
+    "action_display": "VISIT_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.132.78",
+    "datetime": "2025-08-23T02:54:54.762034",
+    "session_id": null,
+    "log_id": "LOG_1755917694_785e8da9"
+  },
+  {
+    "timestamp": 1755932904,
+    "action": "VISIT_REQUEST_ATTEMPT",
+    "action_display": "VISIT_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://visiit.vercel.app/send_visit?player_id=12345678",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:08:24.865524",
+    "session_id": null,
+    "log_id": "LOG_1755932904_d72dec21"
+  },
+  {
+    "timestamp": 1755932906,
+    "action": "VISIT_REQUEST_RESPONSE",
+    "action_display": "VISIT_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:08:26.748107",
+    "session_id": null,
+    "log_id": "LOG_1755932906_1efbf8a7"
+  },
+  {
+    "timestamp": 1755932994,
+    "action": "VISIT_REQUEST_ATTEMPT",
+    "action_display": "VISIT_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://visiit.vercel.app/send_visit?player_id=12345678",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:09:54.914502",
+    "session_id": null,
+    "log_id": "LOG_1755932994_c45fbf8c"
+  },
+  {
+    "timestamp": 1755932995,
+    "action": "VISIT_REQUEST_ATTEMPT",
+    "action_display": "VISIT_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://visiit.vercel.app/send_visit?player_id=12345678",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:09:55.044107",
+    "session_id": null,
+    "log_id": "LOG_1755932995_9bda2ef9"
+  },
+  {
+    "timestamp": 1755933825,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "11735803388",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=11735803388",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:23:45.039823",
+    "session_id": null,
+    "log_id": "LOG_1755933825_0937d3f8"
+  },
+  {
+    "timestamp": 1755933839,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "11735803388",
+      "status_code": 200,
+      "response_size": 2814,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:23:59.518001",
+    "session_id": null,
+    "log_id": "LOG_1755933839_e0381029"
+  },
+  {
+    "timestamp": 1755935386,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "6711906302",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=6711906302",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:49:46.490846",
+    "session_id": null,
+    "log_id": "LOG_1755935386_7590c145"
+  },
+  {
+    "timestamp": 1755935407,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "6711906302",
+      "status_code": 200,
+      "response_size": 2813,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:50:07.324948",
+    "session_id": null,
+    "log_id": "LOG_1755935407_02682514"
+  },
+  {
+    "timestamp": 1755935530,
+    "action": "LIKES_REQUEST_ATTEMPT",
+    "action_display": "LIKES_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "11662893257",
+      "url": "https://likesbngx-rosy.vercel.app/send_like?player_id=11662893257",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:52:10.783446",
+    "session_id": null,
+    "log_id": "LOG_1755935530_d179e5a5"
+  },
+  {
+    "timestamp": 1755935532,
+    "action": "LIKES_REQUEST_RESPONSE",
+    "action_display": "LIKES_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "11662893257",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:52:12.138973",
+    "session_id": null,
+    "log_id": "LOG_1755935532_27b5d179"
+  },
+  {
+    "timestamp": 1755935568,
+    "action": "LIKES_REQUEST_ATTEMPT",
+    "action_display": "LIKES_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "1622931235",
+      "url": "https://likesbngx-rosy.vercel.app/send_like?player_id=1622931235",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:52:48.840366",
+    "session_id": null,
+    "log_id": "LOG_1755935568_6ab540a2"
+  },
+  {
+    "timestamp": 1755935569,
+    "action": "LIKES_REQUEST_RESPONSE",
+    "action_display": "LIKES_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "1622931235",
+      "status_code": 405,
+      "response_size": 153,
+      "success": false
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:52:49.161443",
+    "session_id": null,
+    "log_id": "LOG_1755935569_864bb375"
+  },
+  {
+    "timestamp": 1755935609,
+    "action": "VISIT_REQUEST_ATTEMPT",
+    "action_display": "VISIT_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "6711906302",
+      "url": "https://visiit.vercel.app/send_visit?player_id=6711906302",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:53:29.167922",
+    "session_id": null,
+    "log_id": "LOG_1755935609_ea9d1789"
+  },
+  {
+    "timestamp": 1755935623,
+    "action": "VISIT_REQUEST_RESPONSE",
+    "action_display": "VISIT_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "6711906302",
+      "status_code": 200,
+      "response_size": 24201,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T07:53:43.631767",
+    "session_id": null,
+    "log_id": "LOG_1755935623_8ca29c6b"
+  },
+  {
+    "timestamp": 1755936336,
+    "action": "LIKES_REQUEST_ATTEMPT",
+    "action_display": "LIKES_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://likesbngx-rosy.vercel.app/send_like?player_id=12345678",
+      "ip": "197.26.186.183"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T08:05:36.884149",
+    "session_id": null,
+    "log_id": "LOG_1755936336_2263b630"
+  },
+  {
+    "timestamp": 1755936353,
+    "action": "LIKES_REQUEST_RESPONSE",
+    "action_display": "LIKES_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "status_code": 200,
+      "response_size": 5557,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.26.186.183",
+    "datetime": "2025-08-23T08:05:53.062238",
+    "session_id": null,
+    "log_id": "LOG_1755936353_1d12d481"
+  },
+  {
+    "timestamp": 1756032186,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:06.817438",
+    "session_id": null,
+    "log_id": "LOG_1756032186_829ec005"
+  },
+  {
+    "timestamp": 1756032187,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:07.484033",
+    "session_id": null,
+    "log_id": "LOG_1756032187_6500ae40"
+  },
+  {
+    "timestamp": 1756032197,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:17.390491",
+    "session_id": null,
+    "log_id": "LOG_1756032197_78f56027"
+  },
+  {
+    "timestamp": 1756032198,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:18.047690",
+    "session_id": null,
+    "log_id": "LOG_1756032198_7a03dbb4"
+  },
+  {
+    "timestamp": 1756032200,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:20.671334",
+    "session_id": null,
+    "log_id": "LOG_1756032200_ac55f5a7"
+  },
+  {
+    "timestamp": 1756032201,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:21.321368",
+    "session_id": null,
+    "log_id": "LOG_1756032201_17d30e84"
+  },
+  {
+    "timestamp": 1756032204,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:24.418812",
+    "session_id": null,
+    "log_id": "LOG_1756032204_d03114cf"
+  },
+  {
+    "timestamp": 1756032205,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:25.100331",
+    "session_id": null,
+    "log_id": "LOG_1756032205_5027ba43"
+  },
+  {
+    "timestamp": 1756032211,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:31.109499",
+    "session_id": null,
+    "log_id": "LOG_1756032211_5940e275"
+  },
+  {
+    "timestamp": 1756032211,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:43:31.773263",
+    "session_id": null,
+    "log_id": "LOG_1756032211_4b3d4890"
+  },
+  {
+    "timestamp": 1756032323,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "123445678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=123445678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:45:23.188116",
+    "session_id": null,
+    "log_id": "LOG_1756032323_5ee8930c"
+  },
+  {
+    "timestamp": 1756032323,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "123445678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:45:23.897557",
+    "session_id": null,
+    "log_id": "LOG_1756032323_8c3b9df2"
+  },
+  {
+    "timestamp": 1756032420,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "123445678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=123445678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:47:00.319814",
+    "session_id": null,
+    "log_id": "LOG_1756032420_6911da65"
+  },
+  {
+    "timestamp": 1756032420,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "123445678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:47:00.987540",
+    "session_id": null,
+    "log_id": "LOG_1756032420_4cbbef0e"
+  },
+  {
+    "timestamp": 1756032487,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:48:07.173939",
+    "session_id": null,
+    "log_id": "LOG_1756032487_216739df"
+  },
+  {
+    "timestamp": 1756032487,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T10:48:07.831678",
+    "session_id": null,
+    "log_id": "LOG_1756032487_06e758ec"
+  },
+  {
+    "timestamp": 1756035030,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=883899805",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T11:30:30.904775",
+    "session_id": null,
+    "log_id": "LOG_1756035030_043cd13d"
+  },
+  {
+    "timestamp": 1756035031,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "status_code": 200,
+      "response_size": 49,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T11:30:31.595700",
+    "session_id": null,
+    "log_id": "LOG_1756035031_4cd67687"
+  },
+  {
+    "timestamp": 1756035307,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "url": "https://ff.garena.com/api/antihack/check_banned?lang=en&uid=883899805",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T11:35:07.457983",
+    "session_id": null,
+    "log_id": "LOG_1756035307_3c5aa876"
+  },
+  {
+    "timestamp": 1756035308,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "status_code": 200,
+      "response_size": 49,
+      "content_type": "application/json",
+      "success": true,
+      "raw_response": "{\"status\":\"error\",\"msg\":\"whitelist check failed\"}"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T11:35:08.176887",
+    "session_id": null,
+    "log_id": "LOG_1756035308_9732aada"
+  },
+  {
+    "timestamp": 1756037167,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://api-check-gpl.vercel.app/check?uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:06:07.786927",
+    "session_id": null,
+    "log_id": "LOG_1756037167_a603f7eb"
+  },
+  {
+    "timestamp": 1756037171,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 395,
+      "content_type": "application/json",
+      "success": true,
+      "raw_response": "{\n    \"✅ status\": \"تم فحص الحساب بنجاح\",\n    \"🆔 UID\": \"12345678\",\n    \"🏷️ Nickname\": \"❌ فشل في جلب الاسم\",\n    \"🌍 Region\": \"❌ فشل في جلب المنطقة\",\n    \"🔒 Account\": \"✅ NOT BANNED\",\n    \"⏳ Duration\": \"No ban\",\n    \"📊 Banned?\": false,\n    \"💎 Powered by\": \"@STEVE11542\",\n    \"📡 Channel\": \"https://t.me/+fbT7hd0Wn7ZmMDE0\"\n}"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:06:11.048952",
+    "session_id": null,
+    "log_id": "LOG_1756037171_cc44d022"
+  },
+  {
+    "timestamp": 1756037325,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://api-check-gpl.vercel.app/check?uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:08:45.570673",
+    "session_id": null,
+    "log_id": "LOG_1756037325_051a7d0f"
+  },
+  {
+    "timestamp": 1756037327,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 395,
+      "content_type": "application/json",
+      "success": true,
+      "raw_response": "{\n    \"✅ status\": \"تم فحص الحساب بنجاح\",\n    \"🆔 UID\": \"12345678\",\n    \"🏷️ Nickname\": \"❌ فشل في جلب الاسم\",\n    \"🌍 Region\": \"❌ فشل في جلب المنطقة\",\n    \"🔒 Account\": \"✅ NOT BANNED\",\n    \"⏳ Duration\": \"No ban\",\n    \"📊 Banned?\": false,\n    \"💎 Powered by\": \"@STEVE11542\",\n    \"📡 Channel\": \"https://t.me/+fbT7hd0Wn7ZmMDE0\"\n}"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:08:47.860068",
+    "session_id": null,
+    "log_id": "LOG_1756037327_e001928f"
+  },
+  {
+    "timestamp": 1756037441,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "url": "https://api-check-gpl.vercel.app/check?uid=883899805",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:10:41.608024",
+    "session_id": null,
+    "log_id": "LOG_1756037441_84671cd8"
+  },
+  {
+    "timestamp": 1756037443,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "883899805",
+      "status_code": 200,
+      "response_size": 392,
+      "content_type": "application/json",
+      "success": true,
+      "raw_response": "{\n    \"✅ status\": \"تم فحص الحساب بنجاح\",\n    \"🆔 UID\": \"883899805\",\n    \"🏷️ Nickname\": \"❌ فشل في جلب الاسم\",\n    \"🌍 Region\": \"❌ فشل في جلب المنطقة\",\n    \"🔒 Account\": \"🚫 BANNED\",\n    \"⏳ Duration\": \"6 days\",\n    \"📊 Banned?\": true,\n    \"💎 Powered by\": \"@STEVE11542\",\n    \"📡 Channel\": \"https://t.me/+fbT7hd0Wn7ZmMDE0\"\n}"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:10:43.669662",
+    "session_id": null,
+    "log_id": "LOG_1756037443_7bcc4a59"
+  },
+  {
+    "timestamp": 1756037725,
+    "action": "BAN_CHECK_ATTEMPT",
+    "action_display": "BAN_CHECK_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "url": "https://api-check-gpl.vercel.app/check?uid=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:15:25.522787",
+    "session_id": null,
+    "log_id": "LOG_1756037725_14af47c3"
+  },
+  {
+    "timestamp": 1756037727,
+    "action": "BAN_CHECK_RESPONSE",
+    "action_display": "BAN_CHECK_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "uid": "12345678",
+      "status_code": 200,
+      "response_size": 395,
+      "content_type": "application/json",
+      "success": true,
+      "raw_response": "{\n    \"✅ status\": \"تم فحص الحساب بنجاح\",\n    \"🆔 UID\": \"12345678\",\n    \"🏷️ Nickname\": \"❌ فشل في جلب الاسم\",\n    \"🌍 Region\": \"❌ فشل في جلب المنطقة\",\n    \"🔒 Account\": \"✅ NOT BANNED\",\n    \"⏳ Duration\": \"No ban\",\n    \"📊 Banned?\": false,\n    \"💎 Powered by\": \"@STEVE11542\",\n    \"📡 Channel\": \"https://t.me/+fbT7hd0Wn7ZmMDE0\"\n}"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T12:15:27.656823",
+    "session_id": null,
+    "log_id": "LOG_1756037727_7d957c94"
+  },
+  {
+    "timestamp": 1756043711,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T13:55:11.751584",
+    "session_id": null,
+    "log_id": "LOG_1756043711_099ced55"
+  },
+  {
+    "timestamp": 1756043762,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756043726465_lr6xwx4dd",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T13:56:02.885070",
+    "session_id": null,
+    "log_id": "LOG_1756043762_57c5810e"
+  },
+  {
+    "timestamp": 1756043963,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T13:59:23.020783",
+    "session_id": null,
+    "log_id": "LOG_1756043963_0fa95fda"
+  },
+  {
+    "timestamp": 1756043963,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T13:59:23.064687",
+    "session_id": null,
+    "log_id": "LOG_1756043963_48438d67"
+  },
+  {
+    "timestamp": 1756044178,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:02:58.246556",
+    "session_id": null,
+    "log_id": "LOG_1756044178_5ef39c42"
+  },
+  {
+    "timestamp": 1756044178,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:02:58.337645",
+    "session_id": null,
+    "log_id": "LOG_1756044178_20dd6d9d"
+  },
+  {
+    "timestamp": 1756044275,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:04:35.676668",
+    "session_id": null,
+    "log_id": "LOG_1756044275_719550ba"
+  },
+  {
+    "timestamp": 1756044317,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:05:17.372825",
+    "session_id": null,
+    "log_id": "LOG_1756044317_1126cbf1"
+  },
+  {
+    "timestamp": 1756044317,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:05:17.424305",
+    "session_id": null,
+    "log_id": "LOG_1756044317_167f26d4"
+  },
+  {
+    "timestamp": 1756044351,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756044329568_t0pv1e9ej",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:05:51.593509",
+    "session_id": null,
+    "log_id": "LOG_1756044351_69e67c3c"
+  },
+  {
+    "timestamp": 1756047391,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:56:31.825738",
+    "session_id": null,
+    "log_id": "LOG_1756047391_0a3a189d"
+  },
+  {
+    "timestamp": 1756047391,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T14:56:31.831792",
+    "session_id": null,
+    "log_id": "LOG_1756047391_e51bdeb4"
+  },
+  {
+    "timestamp": 1756047675,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:01:15.478232",
+    "session_id": null,
+    "log_id": "LOG_1756047675_05d46831"
+  },
+  {
+    "timestamp": 1756047699,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756047675874_8mhe01m90",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:01:39.497861",
+    "session_id": null,
+    "log_id": "LOG_1756047699_2f63ec0b"
+  },
+  {
+    "timestamp": 1756047767,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:02:47.987609",
+    "session_id": null,
+    "log_id": "LOG_1756047767_c52d1bf4"
+  },
+  {
+    "timestamp": 1756047914,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:05:14.483162",
+    "session_id": null,
+    "log_id": "LOG_1756047914_3806c9e2"
+  },
+  {
+    "timestamp": 1756047973,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:06:13.209276",
+    "session_id": null,
+    "log_id": "LOG_1756047973_ae248cb3"
+  },
+  {
+    "timestamp": 1756048051,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:07:31.214206",
+    "session_id": null,
+    "log_id": "LOG_1756048051_e57c11e1"
+  },
+  {
+    "timestamp": 1756048127,
+    "action": "SUPER_ADMIN_USER_MODIFIED",
+    "action_display": "SUPER_ADMIN_USER_MODIFIED",
+    "risk_level": "LOW",
+    "details": {
+      "target_user": "BLRXH4RDIXX",
+      "modifications": [
+        "password",
+        "token"
+      ],
+      "modifier": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:08:47.492968",
+    "session_id": null,
+    "log_id": "LOG_1756048127_cf06fa16"
+  },
+  {
+    "timestamp": 1756048127,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:08:47.963094",
+    "session_id": null,
+    "log_id": "LOG_1756048127_758c6051"
+  },
+  {
+    "timestamp": 1756048371,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:12:51.154189",
+    "session_id": null,
+    "log_id": "LOG_1756048371_fa078d6e"
+  },
+  {
+    "timestamp": 1756048388,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756048371714_o8zh1rsb9",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:13:08.174578",
+    "session_id": null,
+    "log_id": "LOG_1756048388_853859c9"
+  },
+  {
+    "timestamp": 1756048569,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:16:09.867610",
+    "session_id": null,
+    "log_id": "LOG_1756048569_fe9073e9"
+  },
+  {
+    "timestamp": 1756048596,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:16:36.366865",
+    "session_id": null,
+    "log_id": "LOG_1756048596_e0a92090"
+  },
+  {
+    "timestamp": 1756048626,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:06.175068",
+    "session_id": null,
+    "log_id": "LOG_1756048626_0aa15f65"
+  },
+  {
+    "timestamp": 1756048647,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "config",
+      "filename": "config_export_1756048647.json",
+      "file_size": 614,
+      "records_count": "complex_structure"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:27.658273",
+    "session_id": null,
+    "log_id": "LOG_1756048647_ca5653d5"
+  },
+  {
+    "timestamp": 1756048650,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "users",
+      "filename": "users_export_1756048650.json",
+      "file_size": 857,
+      "records_count": "complex_structure"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:30.604998",
+    "session_id": null,
+    "log_id": "LOG_1756048650_2a855d1c"
+  },
+  {
+    "timestamp": 1756048654,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "apis",
+      "filename": "apis_export_1756048654.json",
+      "file_size": 1469,
+      "records_count": "complex_structure"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:34.764825",
+    "session_id": null,
+    "log_id": "LOG_1756048654_ce512066"
+  },
+  {
+    "timestamp": 1756048657,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "visitors",
+      "filename": "visitors_export_1756048657.json",
+      "file_size": 9416,
+      "records_count": 30
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:37.046777",
+    "session_id": null,
+    "log_id": "LOG_1756048657_e342bc66"
+  },
+  {
+    "timestamp": 1756048661,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "blocks",
+      "filename": "blocks_export_1756048661.json",
+      "file_size": 2,
+      "records_count": "complex_structure"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:41.913849",
+    "session_id": null,
+    "log_id": "LOG_1756048661_55aecd36"
+  },
+  {
+    "timestamp": 1756048664,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1756048664.json",
+      "file_size": 89016,
+      "records_count": 201
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:17:44.764915",
+    "session_id": null,
+    "log_id": "LOG_1756048664_ba5e5eb2"
+  },
+  {
+    "timestamp": 1756048684,
+    "action": "DATA_EXPORTED",
+    "action_display": "📤 تصدير البيانات",
+    "risk_level": "LOW",
+    "details": {
+      "type": "logs",
+      "filename": "logs_export_1756048684.json",
+      "file_size": 89622,
+      "records_count": 202
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:18:04.280743",
+    "session_id": null,
+    "log_id": "LOG_1756048684_10b8b3af"
+  },
+  {
+    "timestamp": 1756048884,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:21:24.874969",
+    "session_id": null,
+    "log_id": "LOG_1756048884_5ef17ce0"
+  },
+  {
+    "timestamp": 1756049324,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:28:44.933841",
+    "session_id": null,
+    "log_id": "LOG_1756049324_a8519c25"
+  },
+  {
+    "timestamp": 1756049325,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:28:45.080675",
+    "session_id": null,
+    "log_id": "LOG_1756049325_54539bb6"
+  },
+  {
+    "timestamp": 1756049391,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:29:51.277325",
+    "session_id": null,
+    "log_id": "LOG_1756049391_3e713590"
+  },
+  {
+    "timestamp": 1756049518,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:31:58.780410",
+    "session_id": null,
+    "log_id": "LOG_1756049518_730bab00"
+  },
+  {
+    "timestamp": 1756049539,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:32:19.358513",
+    "session_id": null,
+    "log_id": "LOG_1756049539_9943bb63"
+  },
+  {
+    "timestamp": 1756049566,
+    "action": "SUPER_ADMIN_USER_MODIFIED",
+    "action_display": "SUPER_ADMIN_USER_MODIFIED",
+    "risk_level": "LOW",
+    "details": {
+      "target_user": "BLRXH4RDIXX",
+      "modifications": [
+        "password",
+        "token",
+        "role (from admin to admin)"
+      ],
+      "modifier": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:32:46.046560",
+    "session_id": null,
+    "log_id": "LOG_1756049566_046ba9a4"
+  },
+  {
+    "timestamp": 1756049566,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "bngx_admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:32:46.270851",
+    "session_id": null,
+    "log_id": "LOG_1756049566_bc7b9516"
+  },
+  {
+    "timestamp": 1756049603,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:33:23.747849",
+    "session_id": null,
+    "log_id": "LOG_1756049603_4b017db3"
+  },
+  {
+    "timestamp": 1756049990,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/api/outfit/12345678",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:39:50.443234",
+    "session_id": null,
+    "log_id": "LOG_1756049990_1a985a6d"
+  },
+  {
+    "timestamp": 1756050026,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:40:26.018002",
+    "session_id": null,
+    "log_id": "LOG_1756050026_679e1dde"
+  },
+  {
+    "timestamp": 1756050068,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050027039_79ejp23bg",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:41:08.772354",
+    "session_id": null,
+    "log_id": "LOG_1756050068_9d16c369"
+  },
+  {
+    "timestamp": 1756050398,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:46:38.890546",
+    "session_id": null,
+    "log_id": "LOG_1756050398_f18da88a"
+  },
+  {
+    "timestamp": 1756050398,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:46:38.912095",
+    "session_id": null,
+    "log_id": "LOG_1756050398_0b93c1ff"
+  },
+  {
+    "timestamp": 1756050559,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "170.64.187.234",
+      "challenge_id": "challenge_1756050521083_gkf5q2xv3",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36",
+    "ip": "170.64.187.234",
+    "datetime": "2025-08-24T15:49:19.652414",
+    "session_id": null,
+    "log_id": "LOG_1756050559_f4319886"
+  },
+  {
+    "timestamp": 1756050586,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:49:46.038840",
+    "session_id": null,
+    "log_id": "LOG_1756050586_ee9bd1e0"
+  },
+  {
+    "timestamp": 1756050646,
+    "action": "FRIEND_REQUEST_ATTEMPT",
+    "action_display": "FRIEND_REQUEST_ATTEMPT",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "url": "https://spambngx.vercel.app/send_friend?player_id=12345678",
+      "ip": "102.156.157.45"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:50:46.975560",
+    "session_id": null,
+    "log_id": "LOG_1756050646_ef1dd3a2"
+  },
+  {
+    "timestamp": 1756050667,
+    "action": "FRIEND_REQUEST_RESPONSE",
+    "action_display": "FRIEND_REQUEST_RESPONSE",
+    "risk_level": "LOW",
+    "details": {
+      "player_id": "12345678",
+      "status_code": 200,
+      "response_size": 5562,
+      "success": true
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:51:07.202888",
+    "session_id": null,
+    "log_id": "LOG_1756050667_171a3ef3"
+  },
+  {
+    "timestamp": 1756050677,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:51:17.952592",
+    "session_id": null,
+    "log_id": "LOG_1756050677_c7db1f75"
+  },
+  {
+    "timestamp": 1756050682,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:51:22.708718",
+    "session_id": null,
+    "log_id": "LOG_1756050682_49868a21"
+  },
+  {
+    "timestamp": 1756050686,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:51:26.780902",
+    "session_id": null,
+    "log_id": "LOG_1756050686_2dd301a5"
+  },
+  {
+    "timestamp": 1756050723,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:52:03.820243",
+    "session_id": null,
+    "log_id": "LOG_1756050723_4a47981d"
+  },
+  {
+    "timestamp": 1756050835,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:53:55.385624",
+    "session_id": null,
+    "log_id": "LOG_1756050835_f82ba19c"
+  },
+  {
+    "timestamp": 1756050841,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.157.45",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.157.45",
+    "datetime": "2025-08-24T15:54:01.406327",
+    "session_id": null,
+    "log_id": "LOG_1756050841_375d68aa"
+  },
+  {
+    "timestamp": 1756050873,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "15.204.237.219",
+      "challenge_id": "challenge_1756050854516_kc517pjq3",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.94 Mobile Safari/537.36",
+    "ip": "15.204.237.219",
+    "datetime": "2025-08-24T15:54:33.714167",
+    "session_id": null,
+    "log_id": "LOG_1756050873_9c35a2a6"
+  },
+  {
+    "timestamp": 1756051088,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.157.119.169",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.157.119.169",
+    "datetime": "2025-08-24T15:58:08.367343",
+    "session_id": null,
+    "log_id": "LOG_1756051088_353fda3b"
+  },
+  {
+    "timestamp": 1756051089,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.157.119.169",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.157.119.169",
+    "datetime": "2025-08-24T15:58:09.756838",
+    "session_id": null,
+    "log_id": "LOG_1756051089_623ada91"
+  },
+  {
+    "timestamp": 1756051090,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.157.119.169",
+      "challenge_id": "challenge_1756050564056_ay2o4togw",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.157.119.169",
+    "datetime": "2025-08-24T15:58:10.411572",
+    "session_id": null,
+    "log_id": "LOG_1756051090_fab0f021"
+  },
+  {
+    "timestamp": 1756122147,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:42:27.686848",
+    "session_id": null,
+    "log_id": "LOG_1756122147_26c47c01"
+  },
+  {
+    "timestamp": 1756122147,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:42:27.712787",
+    "session_id": null,
+    "log_id": "LOG_1756122147_36f17e01"
+  },
+  {
+    "timestamp": 1756122199,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:43:19.779978",
+    "session_id": null,
+    "log_id": "LOG_1756122199_96d7ef7d"
+  },
+  {
+    "timestamp": 1756122199,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:43:19.788836",
+    "session_id": null,
+    "log_id": "LOG_1756122199_a1e3fb7e"
+  },
+  {
+    "timestamp": 1756122439,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:47:19.759777",
+    "session_id": null,
+    "log_id": "LOG_1756122439_e03d254d"
+  },
+  {
+    "timestamp": 1756122733,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756122440270_wsb0nfz9l",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:52:13.603621",
+    "session_id": null,
+    "log_id": "LOG_1756122733_6865245b"
+  },
+  {
+    "timestamp": 1756123000,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756122906952_ozwm6j4fo",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:56:40.819776",
+    "session_id": null,
+    "log_id": "LOG_1756123000_9c019d82"
+  },
+  {
+    "timestamp": 1756123054,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:57:34.597573",
+    "session_id": null,
+    "log_id": "LOG_1756123054_30b93b22"
+  },
+  {
+    "timestamp": 1756123070,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756123055093_8sg94qnxi",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T11:57:50.861633",
+    "session_id": null,
+    "log_id": "LOG_1756123070_e9c8d45e"
+  },
+  {
+    "timestamp": 1756123363,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756123221261_tlg4v7e35",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T12:02:43.846927",
+    "session_id": null,
+    "log_id": "LOG_1756123363_1ff6d852"
+  },
+  {
+    "timestamp": 1756123408,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756123395904_9au7rbadf",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T12:03:28.214945",
+    "session_id": null,
+    "log_id": "LOG_1756123408_75dd7259"
+  },
+  {
+    "timestamp": 1756128665,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:31:05.407735",
+    "session_id": null,
+    "log_id": "LOG_1756128665_793bee80"
+  },
+  {
+    "timestamp": 1756128665,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:31:05.417570",
+    "session_id": null,
+    "log_id": "LOG_1756128665_1d60bf44"
+  },
+  {
+    "timestamp": 1756128679,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756128666082_78oz57g3a",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:31:19.010308",
+    "session_id": null,
+    "log_id": "LOG_1756128679_8732ee4d"
+  },
+  {
+    "timestamp": 1756129796,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:49:56.810670",
+    "session_id": null,
+    "log_id": "LOG_1756129796_ebc141fe"
+  },
+  {
+    "timestamp": 1756129814,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756129797186_c2j2024x3",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:50:14.876663",
+    "session_id": null,
+    "log_id": "LOG_1756129814_581b7856"
+  },
+  {
+    "timestamp": 1756130040,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:54:00.087221",
+    "session_id": null,
+    "log_id": "LOG_1756130040_d270c012"
+  },
+  {
+    "timestamp": 1756130040,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:54:00.107572",
+    "session_id": null,
+    "log_id": "LOG_1756130040_2d5e0fb7"
+  },
+  {
+    "timestamp": 1756130056,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.158.88.27",
+      "challenge_id": "challenge_1756130040609_dumqp4le1",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.158.88.27",
+    "datetime": "2025-08-25T13:54:16.057345",
+    "session_id": null,
+    "log_id": "LOG_1756130056_cc57be6c"
+  },
+  {
+    "timestamp": 1756196249,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:17:29.229276",
+    "session_id": null,
+    "log_id": "LOG_1756196249_cef73174"
+  },
+  {
+    "timestamp": 1756196249,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:17:29.349176",
+    "session_id": null,
+    "log_id": "LOG_1756196249_245568a1"
+  },
+  {
+    "timestamp": 1756196782,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:26:22.581257",
+    "session_id": null,
+    "log_id": "LOG_1756196782_e2c7e53f"
+  },
+  {
+    "timestamp": 1756196961,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756196782907_b8knzfp4p",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:29:21.753907",
+    "session_id": null,
+    "log_id": "LOG_1756196961_2bd31c54"
+  },
+  {
+    "timestamp": 1756197173,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "USER_1756197173_a50f16b8",
+      "ip": "102.156.116.34"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:32:53.389362",
+    "session_id": null,
+    "log_id": "LOG_1756197173_8409da09"
+  },
+  {
+    "timestamp": 1756197410,
+    "action": "IP_BLOCKED",
+    "action_display": "🚫 حظر عنوان IP",
+    "risk_level": "HIGH",
+    "details": {
+      "ip": "102.156.116.34",
+      "reason": "ddos_protection",
+      "enhanced_message": "🛡️ تم حظر عنوان IP كجزء من الحماية ضد هجمات DDoS.",
+      "permanent": false,
+      "duration": 30,
+      "block_id": "BLK_1756197410_5ce00eb2",
+      "block_version": "v2_secure"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:36:50.588670",
+    "session_id": null,
+    "log_id": "LOG_1756197410_27c00903"
+  },
+  {
+    "timestamp": 1756197410,
+    "action": "DDOS_ATTACK_BLOCKED",
+    "action_display": "DDOS_ATTACK_BLOCKED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:36:50.597148",
+    "session_id": null,
+    "log_id": "LOG_1756197410_6a1b4d97"
+  },
+  {
+    "timestamp": 1756197721,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:42:01.879083",
+    "session_id": null,
+    "log_id": "LOG_1756197721_0a725947"
+  },
+  {
+    "timestamp": 1756197734,
+    "action": "IP_BLOCKED",
+    "action_display": "🚫 حظر عنوان IP",
+    "risk_level": "HIGH",
+    "details": {
+      "ip": "102.156.116.34",
+      "reason": "ddos_protection",
+      "enhanced_message": "🛡️ تم حظر عنوان IP كجزء من الحماية ضد هجمات DDoS.",
+      "permanent": false,
+      "duration": 30,
+      "block_id": "BLK_1756197734_98802878",
+      "block_version": "v2_secure"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:42:14.588851",
+    "session_id": null,
+    "log_id": "LOG_1756197734_d4826e5b"
+  },
+  {
+    "timestamp": 1756197734,
+    "action": "DDOS_ATTACK_BLOCKED",
+    "action_display": "DDOS_ATTACK_BLOCKED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:42:14.597864",
+    "session_id": null,
+    "log_id": "LOG_1756197734_25dc866e"
+  },
+  {
+    "timestamp": 1756197845,
+    "action": "CHALLENGE_REQUIRED",
+    "action_display": "CHALLENGE_REQUIRED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "reason": "normal"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:44:05.393489",
+    "session_id": null,
+    "log_id": "LOG_1756197845_254cbafc"
+  },
+  {
+    "timestamp": 1756197866,
+    "action": "IP_BLOCKED",
+    "action_display": "🚫 حظر عنوان IP",
+    "risk_level": "HIGH",
+    "details": {
+      "ip": "102.156.116.34",
+      "reason": "ddos_protection",
+      "enhanced_message": "🛡️ تم حظر عنوان IP كجزء من الحماية ضد هجمات DDoS.",
+      "permanent": false,
+      "duration": 30,
+      "block_id": "BLK_1756197866_2d3eb834",
+      "block_version": "v2_secure"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:44:26.823409",
+    "session_id": null,
+    "log_id": "LOG_1756197866_62b06f05"
+  },
+  {
+    "timestamp": 1756197866,
+    "action": "DDOS_ATTACK_BLOCKED",
+    "action_display": "DDOS_ATTACK_BLOCKED",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "endpoint": "/",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:44:26.831280",
+    "session_id": null,
+    "log_id": "LOG_1756197866_c52f7804"
+  },
+  {
+    "timestamp": 1756197959,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756197888727_fwcpfl3bd",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:45:59.317876",
+    "session_id": null,
+    "log_id": "LOG_1756197959_49f3fcd6"
+  },
+  {
+    "timestamp": 1756198624,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756198607818_jr8kkfzcn",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:57:04.385992",
+    "session_id": null,
+    "log_id": "LOG_1756198624_c616c977"
+  },
+  {
+    "timestamp": 1756198738,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXADEM",
+      "user_id": "USER_1756198738_24c3f64a",
+      "ip": "102.156.116.34"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:58:58.734354",
+    "session_id": null,
+    "log_id": "LOG_1756198738_52d5bf95"
+  },
+  {
+    "timestamp": 1756198760,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756198742614_1skk8xyv8",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T08:59:20.525171",
+    "session_id": null,
+    "log_id": "LOG_1756198760_f855d521"
+  },
+  {
+    "timestamp": 1756200185,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756200169605_5843deekf",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T09:23:05.518348",
+    "session_id": null,
+    "log_id": "LOG_1756200185_af8b4c30"
+  },
+  {
+    "timestamp": 1756200768,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756200749851_nvvyplghn",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T09:32:48.427251",
+    "session_id": null,
+    "log_id": "LOG_1756200768_7cb3878e"
+  },
+  {
+    "timestamp": 1756202308,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756202293234_m928xclao",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T09:58:28.332130",
+    "session_id": null,
+    "log_id": "LOG_1756202308_91ed901f"
+  },
+  {
+    "timestamp": 1756202559,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756202542082_7s27puebk",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T10:02:39.299708",
+    "session_id": null,
+    "log_id": "LOG_1756202559_6b21a91d"
+  },
+  {
+    "timestamp": 1756202583,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "USER_1756202583_1bf61638",
+      "ip": "102.156.116.34"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T10:03:03.030314",
+    "session_id": null,
+    "log_id": "LOG_1756202583_615a2f2e"
+  },
+  {
+    "timestamp": 1756202601,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756202586532_wc7cklsov",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T10:03:21.559845",
+    "session_id": null,
+    "log_id": "LOG_1756202601_21ad351c"
+  },
+  {
+    "timestamp": 1756213416,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756213383263_86ylk5b2s",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T13:03:36.987999",
+    "session_id": null,
+    "log_id": "LOG_1756213416_7d92e930"
+  },
+  {
+    "timestamp": 1756213423,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRX",
+      "user_id": "USER_1756213423_8b343fab",
+      "ip": "102.156.116.34"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T13:03:43.709036",
+    "session_id": null,
+    "log_id": "LOG_1756213423_ce5bf4fe"
+  },
+  {
+    "timestamp": 1756213440,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756213427868_7ryajktx3",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T13:04:00.381706",
+    "session_id": null,
+    "log_id": "LOG_1756213440_3436e4f4"
+  },
+  {
+    "timestamp": 1756213475,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T13:04:35.111095",
+    "session_id": null,
+    "log_id": "LOG_1756213475_be945523"
+  },
+  {
+    "timestamp": 1756213515,
+    "action": "ADMIN_LOGIN",
+    "action_display": "🔐 تسجيل دخول إداري",
+    "risk_level": "INFO",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T13:05:15.152261",
+    "session_id": null,
+    "log_id": "LOG_1756213515_246ef339"
+  },
+  {
+    "timestamp": 1756223275,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756223239249_ryvvo6r6a",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T15:47:55.356005",
+    "session_id": null,
+    "log_id": "LOG_1756223275_7cfa0195"
+  },
+  {
+    "timestamp": 1756233025,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756233002700_39y9e1srd",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T18:30:25.126618",
+    "session_id": null,
+    "log_id": "LOG_1756233025_04756b56"
+  },
+  {
+    "timestamp": 1756233590,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756233558046_ta7e8o3fx",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T18:39:50.694938",
+    "session_id": null,
+    "log_id": "LOG_1756233590_44e05f5a"
+  },
+  {
+    "timestamp": 1756239584,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756239566433_ox5lk14qd",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T20:19:44.892939",
+    "session_id": null,
+    "log_id": "LOG_1756239584_379cfc52"
+  },
+  {
+    "timestamp": 1756240096,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756240082990_8i4v6g6oo",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T20:28:16.115533",
+    "session_id": null,
+    "log_id": "LOG_1756240096_dcfd70d8"
+  },
+  {
+    "timestamp": 1756240381,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756240361516_e5i249py6",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T20:33:01.233638",
+    "session_id": null,
+    "log_id": "LOG_1756240381_e81eaee4"
+  },
+  {
+    "timestamp": 1756241485,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "102.156.116.34",
+      "challenge_id": "challenge_1756241326872_wul1muid9",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T20:51:25.495363",
+    "session_id": null,
+    "log_id": "LOG_1756241485_e2dde550"
+  },
+  {
+    "timestamp": 1756243631,
+    "action": "ADMIN_LOGIN_JWT",
+    "action_display": "ADMIN_LOGIN_JWT",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "ADM_BLRXH4RDIXX_1756243631"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:27:11.228356",
+    "session_id": null,
+    "log_id": "LOG_1756243631_250fff0d"
+  },
+  {
+    "timestamp": 1756243660,
+    "action": "ADMIN_LOGIN_JWT",
+    "action_display": "ADMIN_LOGIN_JWT",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "ADM_BLRXH4RDIXX_1756243660"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:27:40.924747",
+    "session_id": null,
+    "log_id": "LOG_1756243660_2e35af4e"
+  },
+  {
+    "timestamp": 1756243905,
+    "action": "ADMIN_LOGIN_FAILED",
+    "action_display": "❌ محاولة تسجيل دخول فاشلة",
+    "risk_level": "WARNING",
+    "details": {
+      "username": "BLRXH4RDIXX"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:31:45.297581",
+    "session_id": null,
+    "log_id": "LOG_1756243905_85685ea5"
+  },
+  {
+    "timestamp": 1756243933,
+    "action": "ADMIN_LOGIN_JWT",
+    "action_display": "ADMIN_LOGIN_JWT",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "ADM_BLRXH4RDIXX_1756243933"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:32:13.114176",
+    "session_id": null,
+    "log_id": "LOG_1756243933_d1efdbfc"
+  },
+  {
+    "timestamp": 1756243949,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:32:29.848235",
+    "session_id": null,
+    "log_id": "LOG_1756243949_164ee830"
+  },
+  {
+    "timestamp": 1756243975,
+    "action": "SUPER_ADMIN_USER_MODIFIED",
+    "action_display": "SUPER_ADMIN_USER_MODIFIED",
+    "risk_level": "LOW",
+    "details": {
+      "target_user": "admin",
+      "modifications": [
+        "password",
+        "token"
+      ],
+      "modifier": "BLRXH4RDIXX"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:32:55.307403",
+    "session_id": null,
+    "log_id": "LOG_1756243975_5675c62f"
+  },
+  {
+    "timestamp": 1756243975,
+    "action": "SUPER_ADMIN_USER_INSPECTION",
+    "action_display": "SUPER_ADMIN_USER_INSPECTION",
+    "risk_level": "LOW",
+    "details": {
+      "inspector": "BLRXH4RDIXX",
+      "users_inspected": [
+        "admin",
+        "BLRXH4RDIXX"
+      ]
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "102.156.116.34",
+    "datetime": "2025-08-26T21:32:55.557320",
+    "session_id": null,
+    "log_id": "LOG_1756243975_78c3ed79"
+  },
+  {
+    "timestamp": 1756368636,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756368603192_tz4sq0bir",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:10:36.993355",
+    "session_id": null,
+    "log_id": "LOG_1756368636_174e1b38"
+  },
+  {
+    "timestamp": 1756368652,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXX",
+      "user_id": "USER_1756368652_bd75fbcd",
+      "ip": "41.230.136.222"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:10:52.543819",
+    "session_id": null,
+    "log_id": "LOG_1756368652_58386a69"
+  },
+  {
+    "timestamp": 1756368680,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756368656136_rc5m8ct82",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:11:20.059492",
+    "session_id": null,
+    "log_id": "LOG_1756368680_61304cfe"
+  },
+  {
+    "timestamp": 1756368973,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756368947503_ugi12pho3",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:16:13.389943",
+    "session_id": null,
+    "log_id": "LOG_1756368973_513da699"
+  },
+  {
+    "timestamp": 1756369221,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756369199249_2jjavw7uh",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:20:21.770063",
+    "session_id": null,
+    "log_id": "LOG_1756369221_dd1aedc5"
+  },
+  {
+    "timestamp": 1756369285,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756369245067_3yqtb5ark",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:21:25.267761",
+    "session_id": null,
+    "log_id": "LOG_1756369285_4b862b6b"
+  },
+  {
+    "timestamp": 1756370124,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_id": "USER_1756370124_d82a6708",
+      "ip": "41.230.136.222"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:35:24.249135",
+    "session_id": null,
+    "log_id": "LOG_1756370124_a9544470"
+  },
+  {
+    "timestamp": 1756370174,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756370127495_hmnxfmf4z",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:36:14.167868",
+    "session_id": null,
+    "log_id": "LOG_1756370174_223f1c21"
+  },
+  {
+    "timestamp": 1756371585,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756371533267_o3x95qfrb",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T08:59:45.286115",
+    "session_id": null,
+    "log_id": "LOG_1756371585_9d5b74cb"
+  },
+  {
+    "timestamp": 1756372775,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756372758654_61izaed1v",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:19:35.770941",
+    "session_id": null,
+    "log_id": "LOG_1756372775_a2df15c5"
+  },
+  {
+    "timestamp": 1756372807,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:20:07.165617",
+    "session_id": null,
+    "log_id": "LOG_1756372807_ae2dcd95"
+  },
+  {
+    "timestamp": 1756372868,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:21:08.793956",
+    "session_id": null,
+    "log_id": "LOG_1756372868_840e253d"
+  },
+  {
+    "timestamp": 1756373001,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:23:21.305317",
+    "session_id": null,
+    "log_id": "LOG_1756373001_6afdae7f"
+  },
+  {
+    "timestamp": 1756373105,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756373083199_7fra06r9a",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:25:05.902624",
+    "session_id": null,
+    "log_id": "LOG_1756373105_d310011e"
+  },
+  {
+    "timestamp": 1756373318,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:28:38.465826",
+    "session_id": null,
+    "log_id": "LOG_1756373318_61940324"
+  },
+  {
+    "timestamp": 1756373371,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T09:29:31.308624",
+    "session_id": null,
+    "log_id": "LOG_1756373371_a5f1d4bf"
+  },
+  {
+    "timestamp": 1756376920,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756376896558_uup88dnzh",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:28:40.556957",
+    "session_id": null,
+    "log_id": "LOG_1756376920_6934772c"
+  },
+  {
+    "timestamp": 1756376973,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXX",
+      "user_key": "41.230.136.222:ffd0234b"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:29:33.555364",
+    "session_id": null,
+    "log_id": "LOG_1756376973_2255bf27"
+  },
+  {
+    "timestamp": 1756377119,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756377100471_atkiygs5u",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:31:59.256238",
+    "session_id": null,
+    "log_id": "LOG_1756377119_5824b655"
+  },
+  {
+    "timestamp": 1756377160,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXX",
+      "user_key": "41.230.136.222:ffd0234b"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:32:40.314618",
+    "session_id": null,
+    "log_id": "LOG_1756377160_741dc0c1"
+  },
+  {
+    "timestamp": 1756377183,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:33:03.187680",
+    "session_id": null,
+    "log_id": "LOG_1756377183_5c2b5b36"
+  },
+  {
+    "timestamp": 1756377232,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:33:52.605813",
+    "session_id": null,
+    "log_id": "LOG_1756377232_f006fde6"
+  },
+  {
+    "timestamp": 1756377288,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:34:48.848897",
+    "session_id": null,
+    "log_id": "LOG_1756377288_e744ba60"
+  },
+  {
+    "timestamp": 1756377414,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756377393374_7xv9zn8pu",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:36:54.947116",
+    "session_id": null,
+    "log_id": "LOG_1756377414_faf0997c"
+  },
+  {
+    "timestamp": 1756377448,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:37:28.749550",
+    "session_id": null,
+    "log_id": "LOG_1756377448_f2113544"
+  },
+  {
+    "timestamp": 1756378022,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756378000592_sq6on6djr",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:47:02.863407",
+    "session_id": null,
+    "log_id": "LOG_1756378022_64a27dbe"
+  },
+  {
+    "timestamp": 1756378153,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:49:13.325692",
+    "session_id": null,
+    "log_id": "LOG_1756378153_7f23eb6f"
+  },
+  {
+    "timestamp": 1756378216,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:50:16.225863",
+    "session_id": null,
+    "log_id": "LOG_1756378216_f1ac91d8"
+  },
+  {
+    "timestamp": 1756378414,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756378398600_n6p4q7w2w",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:53:34.780984",
+    "session_id": null,
+    "log_id": "LOG_1756378414_9833e8fe"
+  },
+  {
+    "timestamp": 1756378437,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:53:57.476687",
+    "session_id": null,
+    "log_id": "LOG_1756378437_0b8b6ab0"
+  },
+  {
+    "timestamp": 1756378760,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756378744638_384qes4q4",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:59:20.507657",
+    "session_id": null,
+    "log_id": "LOG_1756378760_64677aee"
+  },
+  {
+    "timestamp": 1756378787,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T10:59:47.971183",
+    "session_id": null,
+    "log_id": "LOG_1756378787_9319b8e3"
+  },
+  {
+    "timestamp": 1756379034,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756379020219_22mb3hwls",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:03:54.550667",
+    "session_id": null,
+    "log_id": "LOG_1756379034_6c10f946"
+  },
+  {
+    "timestamp": 1756379049,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:04:09.201366",
+    "session_id": null,
+    "log_id": "LOG_1756379049_6ebff828"
+  },
+  {
+    "timestamp": 1756379107,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:05:07.832683",
+    "session_id": null,
+    "log_id": "LOG_1756379107_446b15c0"
+  },
+  {
+    "timestamp": 1756379205,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:06:45.906412",
+    "session_id": null,
+    "log_id": "LOG_1756379205_b8d1d6f7"
+  },
+  {
+    "timestamp": 1756379369,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756379352113_i8jt3mant",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:09:29.935572",
+    "session_id": null,
+    "log_id": "LOG_1756379369_11ec82fa"
+  },
+  {
+    "timestamp": 1756379391,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:09:51.056102",
+    "session_id": null,
+    "log_id": "LOG_1756379391_87c4aeeb"
+  },
+  {
+    "timestamp": 1756380382,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756380368925_mtmjb9sl1",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:26:22.829720",
+    "session_id": null,
+    "log_id": "LOG_1756380382_d9b3ce05"
+  },
+  {
+    "timestamp": 1756380408,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:26:48.229354",
+    "session_id": null,
+    "log_id": "LOG_1756380408_1661225d"
+  },
+  {
+    "timestamp": 1756380784,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "41.230.136.222",
+      "challenge_id": "challenge_1756380766448_0soycblhv",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:33:04.248813",
+    "session_id": null,
+    "log_id": "LOG_1756380784_dd9c5cfa"
+  },
+  {
+    "timestamp": 1756380808,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:33:28.074441",
+    "session_id": null,
+    "log_id": "LOG_1756380808_da88b563"
+  },
+  {
+    "timestamp": 1756380869,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "HAHAHA",
+      "user_key": "41.230.136.222:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "41.230.136.222",
+    "datetime": "2025-08-28T11:34:29.479330",
+    "session_id": null,
+    "log_id": "LOG_1756380869_1302d5af"
+  },
+  {
+    "timestamp": 1756395264,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "197.3.123.160",
+      "challenge_id": "challenge_1756395249911_j3wrg75gf",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:34:24.758291",
+    "session_id": null,
+    "log_id": "LOG_1756395264_698c1516"
+  },
+  {
+    "timestamp": 1756395273,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "ADEM",
+      "user_id": "USER_1756395273_2e3681c6",
+      "ip": "197.3.123.160"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:34:33.320654",
+    "session_id": null,
+    "log_id": "LOG_1756395273_1efe2478"
+  },
+  {
+    "timestamp": 1756395296,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "197.3.123.160",
+      "challenge_id": "challenge_1756395276123_u6ftybz2i",
+      "attempts": 2
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:34:56.359510",
+    "session_id": null,
+    "log_id": "LOG_1756395296_7c741b20"
+  },
+  {
+    "timestamp": 1756395350,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "ADEM",
+      "user_key": "197.3.123.160:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:35:50.937128",
+    "session_id": null,
+    "log_id": "LOG_1756395350_56d63eab"
+  },
+  {
+    "timestamp": 1756395378,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "ADEM",
+      "user_key": "197.3.123.160:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:36:18.020138",
+    "session_id": null,
+    "log_id": "LOG_1756395378_7f316124"
+  },
+  {
+    "timestamp": 1756395426,
+    "action": "CHAT_PAGE_ACCESS",
+    "action_display": "CHAT_PAGE_ACCESS",
+    "risk_level": "LOW",
+    "details": {
+      "username": "ADEM",
+      "user_key": "197.3.123.160:89e5bdfa"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:37:06.924421",
+    "session_id": null,
+    "log_id": "LOG_1756395426_1db798d9"
+  },
+  {
+    "timestamp": 1756395546,
+    "action": "ADMIN_LOGIN_JWT",
+    "action_display": "ADMIN_LOGIN_JWT",
+    "risk_level": "LOW",
+    "details": {
+      "username": "BLRXH4RDIXX",
+      "user_id": "ADM_BLRXH4RDIXX_1756395546"
+    },
+    "user": "BLRXH4RDIXX",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:39:06.807986",
+    "session_id": null,
+    "log_id": "LOG_1756395546_6fd1b5ec"
+  },
+  {
+    "timestamp": 1756395780,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "197.3.123.160",
+      "challenge_id": "challenge_1756395763950_o8c66l11q",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:43:00.735330",
+    "session_id": null,
+    "log_id": "LOG_1756395780_b5f5c8ad"
+  },
+  {
+    "timestamp": 1756395789,
+    "action": "USER_REGISTERED",
+    "action_display": "USER_REGISTERED",
+    "risk_level": "LOW",
+    "details": {
+      "username": "MOM",
+      "user_id": "USER_1756395789_0b45586f",
+      "ip": "197.3.123.160"
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:43:09.423752",
+    "session_id": null,
+    "log_id": "LOG_1756395789_fbbbc6b8"
+  },
+  {
+    "timestamp": 1756395809,
+    "action": "HUMAN_VERIFICATION_SUCCESS",
+    "action_display": "HUMAN_VERIFICATION_SUCCESS",
+    "risk_level": "LOW",
+    "details": {
+      "ip": "197.3.123.160",
+      "challenge_id": "challenge_1756395792750_lmjo8xft9",
+      "attempts": 1
+    },
+    "user": null,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_8_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Replit-Bonsai/2.147.2 (iOS 15.8.2)",
+    "ip": "197.3.123.160",
+    "datetime": "2025-08-28T15:43:29.840191",
+    "session_id": null,
+    "log_id": "LOG_1756395809_eea43720"
+  }
+]

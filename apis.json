@@ -1,0 +1,65 @@
+{
+  "update_bio": {
+    "url": "https://gpl-bio-umpd.vercel.app/get?access={token}&text={bio}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "user_info": {
+    "url": "https://info-me-ob50.vercel.app/get?uid={uid}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "send_friend": {
+    "url": "https://spambngx.vercel.app/send_friend?player_id={player_id}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "send_likes": {
+    "url": "https://likesbngx-rosy.vercel.app/send_like?player_id={player_id}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "get_banner": {
+    "url": "https://bnrbngx-nu.vercel.app/bnr?uid={uid}&key={key}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "get_outfit": {
+    "url": "https://outfit-eta.vercel.app/api?region={region}&uid={uid}&key={key}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "send_visits": {
+    "url": "https://visiit.vercel.app/send_visit?player_id={player_id}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "check_ban": {
+    "url": "https://api-check-gpl.vercel.app/check?uid={uid}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  },
+  "get_items": {
+    "url": "https://zix-official-elements-2.vercel.app/get?access={access}&{item_params}",
+    "method": "GET",
+    "timeout": 30,
+    "status": "active",
+    "maintenance": false
+  }
+}

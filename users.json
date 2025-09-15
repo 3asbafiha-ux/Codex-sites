@@ -1,0 +1,28 @@
+{
+  "admin": {
+    "password": "S1X",
+    "token": "S1X",
+    "role": "super_admin",
+    "permissions": [
+      "all"
+    ],
+    "created_at": 1755873425,
+    "last_login": 1755881858,
+    "status": "active",
+    "last_modified": 1756243975,
+    "modified_by": "BLRXH4RDIXX"
+  },
+  "BLRXH4RDIXX": {
+    "password": "BLRX",
+    "token": "BLRX",
+    "role": "admin",
+    "permissions": [
+      "all"
+    ],
+    "created_at": 1755873425,
+    "last_login": 1756395546,
+    "status": "active",
+    "last_modified": 1756049566,
+    "modified_by": "BLRXH4RDIXX"
+  }
+}

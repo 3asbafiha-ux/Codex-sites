@@ -1,0 +1,30 @@
+{
+  "site_name": "S1X TEAM",
+  "maintenance_mode": false,
+  "rate_limits": {
+    "per_minute": 30,
+    "per_hour": 200
+  },
+  "security": {
+    "max_failed_attempts": 5,
+    "block_duration": 30,
+    "session_timeout": 60
+  },
+  "features": {
+    "registration_enabled": true,
+    "api_logging": true,
+    "auto_backup": true
+  },
+  "announcement": {
+    "message": "BLRXH4RDIXX",
+    "type": "warning",
+    "created_by": "BLRXH4RDIXX",
+    "created_at": 1755880990,
+    "active": false
+  },
+  "theme": {
+    "name": "light",
+    "changed_by": "BLRXH4RDIXX",
+    "changed_at": 1755881087
+  }
+}

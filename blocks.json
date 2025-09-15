@@ -1,0 +1,15 @@
+{
+  "102.156.116.34": {
+    "reason": "ddos_protection",
+    "enhanced_message": "🛡️ تم حظر عنوان IP كجزء من الحماية ضد هجمات DDoS.",
+    "blocked_at": 1756197866.8215344,
+    "blocked_by": "system",
+    "permanent": false,
+    "block_id": "BLK_1756197866_2d3eb834",
+    "created_timestamp": 1756197866.8215344,
+    "block_version": "v2_secure",
+    "until": 1756199696.8215344,
+    "duration_minutes": 30,
+    "buffer_seconds": 30
+  }
+}
